@@ -20,7 +20,7 @@ Adjust output folder in config file `etc/ordabok.yaml` by changing `learningshee
 
 ## Prerequisites
 
-python 3.6 or higher
+python 3.6 or higher  
 python modules as listed in requirements.tyt
 
 ## How to execute
