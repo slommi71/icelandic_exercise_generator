@@ -1,4 +1,4 @@
-# Generator - Exercise Excel Sheets
+# Generator - Exercise Excel Sheets to train Icelandic Nouns and Grammar
 
 app to generate excel sheets with exercises to train icelandic vocabulary and grammar.
 
