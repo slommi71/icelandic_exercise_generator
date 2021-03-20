@@ -14,7 +14,9 @@ The student has to fill following:
   
 The first sheet is to train nominativ, the second sheet to train accusativ.
 
-Your own word list can be entered in `etc/ordabok.yaml` and thus adapted to your own learning progress. 
+Your own word list can be entered in `etc/ordabok.yaml` and thus adapted to your own learning progress.
+
+Adjust output folder in config file `etc/ordabok.yaml` by changing `learningsheet_path`.
 
 ## Prerequisites
 
