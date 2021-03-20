@@ -1,8 +1,10 @@
 # Generator - Exercise Excel Sheets
 
+app to generate excel sheets with exercises to train icelandic vocabulary and grammar.
+
 Based on a yaml orðabók (vocabulary) in /etc folder this simple app generates an excel file with sheets of words taken from `etc/ordabok.yaml`.
 
-First columns contains 40 words.
+First columns contains 40 nouns (icelandic: nafnorð).
 The student has to fill following:
 
 - gender of the word in second column
