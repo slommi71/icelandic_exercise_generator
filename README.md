@@ -9,10 +9,10 @@ The student has to fill following:
 
 - gender of the word in second column
 - third column: singular with article
-- fourth column: plural without artcle
-- fifth with artcle
+- fourth column: plural without article
+- fifth column: plural with article
   
-the first sheet is to train nominativ, the second sheet to train accusativ.
+The first sheet is to train nominativ, the second sheet to train accusativ.
 
 Your own word list can be entered in `etc/ordabok.yaml` and thus adapted to your own learning progress. 
 
@@ -27,3 +27,7 @@ python modules as listed in requirements.tyt
 pip install -r requirements.txt
 python .\src\createnafnordsheet\app.py
 ```
+
+## Need help to solve exercises?
+
+On [Árni Magnússon Institute for Icelandic Studies web site](https://bin.arnastofnun.is) you can search for correct grammar.
