@@ -33,3 +33,7 @@ python .\src\createnafnordsheet\app.py
 ## Need help to solve exercises?
 
 On [Árni Magnússon Institute for Icelandic Studies web site](https://bin.arnastofnun.is) you can search for correct grammar. Great web site!
+
+## Output Example
+
+![Example file](assets/xls_example.jpg)
