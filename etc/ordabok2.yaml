@@ -1,0 +1,672 @@
+- is: bíll
+  class: nafnorð
+  kyns: karlkyns
+  de: Auto
+  arnastofnun:
+- is: bær
+  class: nafnorð
+  kyns: karlkyns
+  de: Städtchen, Hof
+  arnastofnun:
+- is: bjór
+  class: nafnorð
+  kyns: karlkyns
+  de: Bier
+  arnastofnun:
+- is: bolli
+  class: nafnorð
+  kyns: karlkyns
+  de: Tasse
+  arnastofnun:
+- is: bolur
+  class: nafnorð
+  kyns: karlkyns
+  de: Rumpf, Oberkörper
+  arnastofnun:
+- is: dalur
+  class: nafnorð
+  kyns: karlkyns
+  de: Tal
+  arnastofnun:
+- is: dagur
+  class: nafnorð
+  kyns: karlkyns
+  de: Tag
+  arnastofnun:
+- is: fataskápur
+  class: nafnorð
+  kyns: karlkyns
+  de: Kleiderschrank
+  arnastofnun:
+- is: gluggi
+  class: nafnorð
+  kyns: karlkyns
+  de: Fenster
+  arnastofnun:
+- is: gestur
+  class: nafnorð
+  kyns: karlkyns
+  de Gast
+  arnastofnun:
+- is: hákarl
+  class: nafnorð
+  kyns: karlkyns
+  de: Hai
+  arnastofnun:
+- is: hamborgari
+  class: nafnorð
+  kyns: karlkyns
+  de: Hamburger
+  arnastofnun:
+- is: hundur
+  class: nafnorð
+  kyns: karlkyns
+  de: Hund
+  arnastofnun:
+- is: hvítlaukur
+  class: nafnorð
+  kyns: karlkyns
+  de: Knoblauch
+  arnastofnun:
+- is: himinn
+  class: nafnorð
+  kyns: karlkyns
+  de: Himmel
+  arnastofnun:
+- is: jakki
+  class: nafnorð
+  kyns: karlkyns
+  de: Jakki
+  arnastofnun:
+- is: jökull
+  class: nafnorð
+  kyns: karlkyns
+  de: Gletscher
+  arnastofnun:
+- is: Íslendingur
+  class: nafnorð
+  kyns: karlkyns
+  de: Isländerin, Isländer
+  arnastofnun:
+- is: koddi
+  class: nafnorð
+  kyns: karlkyns
+  de: Kissen
+  arnastofnun:
+- is: kjóll
+  class: nafnorð
+  kyns: karlkyns
+  de: Kleid
+  arnastofnun:
+- is: lampi
+  class: nafnorð
+  kyns: karlkyns
+  de: Lampe
+  arnastofnun:
+- is: laukur
+  class: nafnorð
+  kyns: karlkyns
+  de: Zwiebel
+  arnastofnun:
+- is: lax
+  class: nafnorð
+  kyns: karlkyns
+  de: Lachs
+  arnastofnun:
+- is: læknir
+  class: nafnorð
+  kyns: karlkyns
+  de: Arzt
+  arnastofnun:
+- is: lykill
+  class: nafnorð
+  kyns: karlkyns
+  de: Schlüssel
+  arnastofnun:
+- is: maður
+  class: nafnorð
+  kyns: karlkyns
+  de: Mann
+  arnastofnun:
+- is: mávur
+  class: nafnorð
+  kyns: karlkyns
+  de: Möwe
+  arnastofnun:
+- is: mjólk
+  class: nafnorð
+  kyns: karlkyns
+  de: Milcj
+  arnastofnun:
+- is: ostborgari
+  class: nafnorð
+  kyns: karlkyns
+  de: Cheeseburger
+  arnastofnun:
+- is: pabbi
+  class: nafnorð
+  kyns: karlkyns
+  de: Papa
+  arnastofnun:
+- is: peningaskáp
+  class: nafnorð
+  kyns: karlkyns
+  de: Geldschrank
+  arnastofnun:
+- is: penni
+  class: nafnorð
+  kyns: karlkyns
+  de: Stift
+  arnastofnun:
+- is: sófi
+  class: nafnorð
+  kyns: karlkyns
+  de: Sofa
+  arnastofnun:
+- is: reikningur
+  class: nafnorð
+  kyns: karlkyns
+  de: Rechnung
+  arnastofnun:
+- is: sími
+  class: nafnorð
+  kyns: karlkyns
+  de: Telefon
+  arnastofnun:
+- is: skjálfti
+  class: nafnorð
+  de: Beben, Erschütterung
+  arnastofnun: leit/skjálfti
+- is: skápur
+  class: nafnorð
+  kyns: karlkyns
+  de: Schrank
+  arnastofnun: leit/skápur
+- is: spegill
+  class: nafnorð
+  kyns: karlkyns
+  de: Spiegel
+  arnastofnun:
+- is: steinn
+  class: nafnorð
+  kyns: karlkyns
+  de: Stein
+  arnastofnun:
+- is: stóll
+  class: nafnorð
+  kyns: karlkyns
+  de: Stuhl
+  arnastofnun:
+- is: sveppur
+  class: nafnorð
+  kyns: karlkyns
+  de: Pilz
+  arnastofnun:
+- is: tómatur
+  class: nafnorð
+  kyns: karlkyns
+  de: Tomate
+  arnastofnun:
+- is: vaskur
+  class: nafnorð
+  kyns: karlkyns
+  de: Waschbecken
+  arnastofnun:
+- is: vindur
+  class: nafnorð
+  kyns: karlkyns
+  de: Wind
+  arnastofnun:
+- is: vinur
+  class: nafnorð
+  kyns: karlkyns
+  de: Freund
+  arnastofnun:
+- is: Þjónn
+  class: nafnorð
+  kyns: karlkyns
+  de: Kellner
+  arnastofnun:
+- is: Þjóðverji
+  class: nafnorð
+  kyns: karlkyns
+  de: Deutscher
+  arnastofnun:
+- is: kjúklingur
+  class: nafnorð
+  kyns: karlkyns
+  de: Huhn, Hühnchen
+  arnastofnun:
+- is: blússa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bluse
+  arnastofnun: beyging/15712
+- is: agúrka
+  class: nafnorð
+  kyns: kvenkyns
+  de: Gurke
+  arnastofnun: leit/agúrka
+- is: baun
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bohne
+  arnastofnun:
+- is: bar
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bar
+  arnastofnun: beyging/5628
+- is: búð
+  class: nafnorð
+  kyns: kvenkyns
+  de: Laden
+  arnastofnun:
+- is: bók
+  class: nafnorð
+  kyns: kvenkyns
+  de: Buch
+  arnastofnun:
+- is: borg
+  class: nafnorð
+  kyns: kvenkyns
+  de: Stadt
+  arnastofnun:
+- is: brottför
+  class: nafnorð
+  kyns: kvenkyns
+  de: Abfahrt, Abreise
+  arnastofnun:
+- is: bygging
+  class: nafnorð
+  kyns: kvenkyns
+  de: Gebäude
+  arnastofnun:
+- is: eyja
+  class: nafnorð
+  kyns: kvenkyns
+  de: Insel
+  arnastofnun:
+- is: flaska
+  class: nafnorð
+  kyns: kvenkyns
+  de: Falsche
+  arnastofnun:
+- is: gulrót
+  class: nafnorð
+  kyns: kvenkyns
+  de: Karotte, Mohrrübe
+  arnastofnun:
+- is: hurð
+  class: nafnorð
+  kyns: kvenkyns
+  de: Tür
+  arnastofnun:
+- is: kaka
+  class: nafnorð
+  kyns: kvenkyns
+  de: Kuchen
+  arnastofnun:
+- is: kanna
+  class: nafnorð
+  kyns: kvenkyns
+  de: Kanne
+  arnastofnun:
+- is: kartafla
+  class: nafnorð
+  kyns: kvenkyns
+  de: Kartoffel
+  arnastofnun:
+- is: kjötbolla
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bullete, Klops, Fleischpflanzerl
+  arnastofnun:
+- is: klukka
+  class: nafnorð
+  kyns: kvenkyns
+  de: Uhr
+  arnastofnun:
+- is: kona
+  class: nafnorð
+  kyns: kvenkyns
+  de: Frau
+  arnastofnun:
+- is: kvittun
+  class: nafnorð
+  kyns: kvenkyns
+  de: Quittung, Beleg
+  arnastofnun:
+- is: mamma
+  class: nafnorð
+  kyns: kvenkyns
+  de: Mama
+  arnastofnun:
+- is: milljón
+  class: nafnorð
+  kyns: kvenkyns
+  de: Million
+  arnastofnun:
+- is: mynd
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bikd
+  arnastofnun:
+- is: náttúra
+  class: nafnorð
+  kyns: kvenkyns
+  de: Natue
+  arnastofnun:
+- is: nótt
+  class: nafnorð
+  kyns: kvenkyns
+  de: Nacht
+  arnastofnun:
+- is: núðla
+  class: nafnorð
+  kyns: kvenkyns
+  de: Nudel
+  arnastofnun:
+- is: paprika
+  class: nafnorð
+  kyns: kvenkyns
+  de: Paprika
+  arnastofnun:
+- is: pítsa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Pizza
+  arnastofnun:
+- is: pylsa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Wurst, Hotdog
+  arnastofnun:
+- is: pöntun
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bestellung
+  arnastofnun:
+- is: rigning
+  class: nafnorð
+  kyns: kvenkyns
+  de: Regen
+  arnastofnun:
+- is: rós
+  class: nafnorð
+  kyns: kvenkyns
+  de: Rose
+  arnastofnun:
+- is: samloka
+  class: nafnorð
+  kyns: kvenkyns
+  de: Samloka
+  arnastofnun:
+- is: sígaretta
+  class: nafnorð
+  kyns: kvenkyns
+  de: Zigarette
+  arnastofnun:
+- is: salat
+  class: nafnorð
+  kyns: kvenkyns
+  de: Salat
+  arnastofnun:
+- is: skál
+  class: nafnorð
+  kyns: kvenkyns
+  de: Prost
+  arnastofnun:
+- is: skeið
+  class: nafnorð
+  kyns: kvenkyns
+  de: Löffel
+  arnastofnun:
+- is: skyrta
+  class: nafnorð
+  kyns: kvenkyns
+  de: Hemd
+  arnastofnun:
+- is: stelpa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Mädchen
+  arnastofnun:
+- is: strönd
+  class: nafnorð
+  kyns: kvenkyns
+  de: Strand
+  arnastofnun:
+- is: sturta
+  class: nafnorð
+  kyns: kvenkyns
+  de: Dusche
+  arnastofnun:
+- is: sæng
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bettdecke
+  arnastofnun:
+- is: taska
+  class: nafnorð
+  kyns: kvenkyns
+  de: Tasche
+  arnastofnun:
+- is: túristi
+  class: nafnorð
+  kyns: kvenkyns
+  de: Tourist
+  arnastofnun:
+- is: verslun
+  class: nafnorð
+  kyns: kvenkyns
+  de: Geschäft
+  arnastofnun:
+- is: æfing
+  class: nafnorð
+  kyns: kvenkyns
+  de: Übung
+  arnastofnun:
+- is: afmæli
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Geburtstag
+  arnastofnun:
+- is: auga
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Auge
+  arnastofnun:
+- is: barn
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kind
+  arnastofnun:
+- is: bað
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Bad
+  arnastofnun:
+- is: batterí
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Batterie
+  arnastofnun:
+- is: bíó
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kino
+  arnastofnun:
+- is: blað
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Zeitung
+  arnastofnun:
+- is: blomkál
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Blumenkohl
+  arnastofnun:
+- is: borð
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Tisch
+  arnastofnun:
+- is: brokkolí
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Brokkoli
+  arnastofnun:
+- is: eldfjall
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Vulkan
+  arnastofnun:
+- is: epli
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Apfel
+  arnastofnun:
+- is: eyra
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Ohr
+  arnastofnun:
+- is: fjall
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Berg
+  arnastofnun:
+- is: glas
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Glas
+  arnastofnun:
+- is: gaman
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Freude
+  arnastofnun:
+- is: gos
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Limonade, Softdrink
+  arnastofnun:
+- is: grænmeti
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Gemüse
+  arnastofnun:
+- is: hótel
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Hotel
+  arnastofnun:
+- is: hjarta
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Herz
+  arnastofnun:
+- is: kaffi
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kaffeen:
+- is: kál
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kohl
+  arnastofnun:
+- is: kerti
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kerze
+  arnastofnun:
+- is: kók
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Cola
+  arnastofnun:
+- is: kort
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Karte
+  arnastofnun:
+- is: kreditkort
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kerditkarte
+  arnastofnun:
+- is: kvöld
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Abend
+  arnastofnun:
+- is: lasanja
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Lasangne
+  arnastofnun:
+- is: lunga
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Lunge
+  arnastofnun:
+- is: lyklaborð
+  class: nafnorð
+  de: Tastatur
+  arnastofnun:
+- is: nýra
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Niere
+  arnastofnun:
+- is: pasta
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Pasta
+  arnastofnun:
+- is: rúm
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Bett
+  arnastofnun:
+- is: sjónvarp
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Fernseher
+  arnastofnun:
+- is: skema
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Schema
+  arnastofnun:
+- is: súkkulaði
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Schokolade
+  arnastofnun:
+- is: té
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Tee
+  arnastofnun:
+- is: útvarp
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Radio
+  arnastofnun:
+- is: vatn
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Wasser
+  arnastofnun:
+- is: Þýskaland
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Deutschland
+  arnastofnun:
+- is: Þema
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Thema
+  arnastofnun:
