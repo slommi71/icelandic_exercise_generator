@@ -4,7 +4,7 @@ karlkyns:
   - bjór
   - bolli
   - bolur
-  - dal
+  - dalur
   - dagur
   - fataskápur
   - gluggi
@@ -22,15 +22,16 @@ karlkyns:
   - lampi
   - laukur
   - lax
+  - læknir
   - lykill
   - maður
   - mávur
   - mjólk
   - ostborgari
   - pabbi
-  - peningaskaup
+  - peningaskáp
   - penni
-  - sofi
+  - sófi
   - reikningur
   - sími
   - skápur
@@ -129,12 +130,12 @@ hvorugkyns:
   - sjónvarp
   - skema
   - súkkulaði
-  - te
+  - té
   - útvarp
   - vatn
   - Þýskaland
-
   - Þema
 
 learningsheet_path:
- './'
+  'T:\\OneDrive\\Holger\\OneDrive\\Sprachen\\Isländisch\\VHS 2021\\exercises\\'
+
