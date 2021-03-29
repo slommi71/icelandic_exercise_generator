@@ -43,7 +43,8 @@ def show_solution():
     idx = cache.get("wordidx")
     #logging.debug("indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
-    return render_template('lausn.html', wort=w['is'])
+    result = w['is'] + "(" + w['kyns'] + ")"
+    return render_template('lausn.html', wort=result)
     #return render_template('lausn.html', wort="str(idx)")
 
 
