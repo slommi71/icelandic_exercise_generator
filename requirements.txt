@@ -1,3 +1,4 @@
 PyYAML
 xlsxwriter
 Flask
+flask_caching
