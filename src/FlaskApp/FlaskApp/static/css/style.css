@@ -16,3 +16,8 @@ body {
     font-weight: bold;
     font-family: Papyrus;
 }
+.link {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
