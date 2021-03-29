@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Læra islensku</title>
+  </head>
+  <body>
+    <h1>Welkomin til 'Við lærum islensku!'</h1>
+    <p/>
+    Hvað segir maður <br>
+    <div class="wort">{{ wort }}</div>
+    á íslensku?
+    <br>
+    <form method='POST' action='/lausn'>
+        <p><input value='Sýna lausn' type='SUBMIT'></p>
+    </form>
+  </body>
+<html>

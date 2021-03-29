@@ -1,0 +1,18 @@
+h1 {
+    border: 2px #eee solid;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-size: 30px;
+    text-align: center;
+}
+
+.wort {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: Papyrus;
+}
