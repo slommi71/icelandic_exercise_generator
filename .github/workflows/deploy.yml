@@ -34,7 +34,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           rm: true
-          source: "src/FlaskApp"
+          source: "src/FlaskApp/"
           target: "${{ secrets.REMOTE_DIR }}"
           
   
