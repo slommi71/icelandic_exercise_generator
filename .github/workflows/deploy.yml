@@ -36,5 +36,6 @@ jobs:
           rm: true
           source: "src/FlaskApp/"
           target: "${{ secrets.REMOTE_DIR }}"
+          strip_components: 1
           
   
