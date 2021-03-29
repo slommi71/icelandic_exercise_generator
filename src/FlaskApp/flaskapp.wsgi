@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from FlaskApp import app as application
+from Flask import app as application
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
