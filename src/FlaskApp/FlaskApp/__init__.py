@@ -1,9 +1,9 @@
 # Add the site-packages of the chosen virtualenv to work with
 import random
 import yaml
-from flask import Flask, render_template
 import site
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
