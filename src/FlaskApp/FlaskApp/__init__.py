@@ -54,11 +54,14 @@ def get_word_by_index(words, idx):
 @app.route('/lausn', methods=['POST'])
 def show_solution():
     idx = cache.get("wordidx")
-    app.logger.debug("indx {0}".format(idx))
-    w = get_word_by_index(get_ordabok(), idx)
+    # app.logger.debug("indx {0}".format(idx))
+    try:
+        w = get_word_by_index(get_ordabok(), int(idx))
+    except:
+        return render_template('lausn.html', wort="", arnastofnun="")
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
-    app.logger.debug("arnastofnun = {0}".format(w['arnastofnun']))
+    # app.logger.debug("arnastofnun = {0}".format(w['arnastofnun']))
     return render_template('lausn.html', wort=result_w, arnastofnun=result_as)
     #return render_template('lausn.html', wort="str(idx)")
 

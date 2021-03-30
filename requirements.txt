@@ -2,3 +2,5 @@ PyYAML
 xlsxwriter
 Flask
 flask_caching
+Scrapy
+requests
