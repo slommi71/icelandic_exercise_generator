@@ -30,6 +30,7 @@ cache = Cache(app)
 
 
 @app.route("/", methods=['GET', 'POST'])
+@cache.cached(timeout=300)
 def index():
     idx, w = get_word(get_ordabok())
     cache.set("wordidx", idx)
