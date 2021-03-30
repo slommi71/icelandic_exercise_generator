@@ -2,12 +2,14 @@ import random
 import yaml
 import site
 import logging
+import sys
 
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
 from flask_caching import Cache
 from flask import Flask, render_template
 
+logging.basicConfig(stream=sys.stderr)
 
 config = {
     "DEBUG": True,          # some Flask specific configs
