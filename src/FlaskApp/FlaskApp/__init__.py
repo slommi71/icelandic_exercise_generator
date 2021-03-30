@@ -56,9 +56,8 @@ def get_word_by_index(words, idx):
 def show_solution():
     idx = cache.get("wordidx")
     # app.logger.debug("indx {0}".format(idx))
-    try:
-        w = get_word_by_index(get_ordabok(), int(idx))
-    except:
+    w = get_word_by_index(get_ordabok(), int(idx))
+    if not w:
         return render_template('lausn.html', wort="", arnastofnun="")
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
