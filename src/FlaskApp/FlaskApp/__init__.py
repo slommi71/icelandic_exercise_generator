@@ -10,6 +10,8 @@ from flask_caching import Cache
 from flask import Flask, render_template
 
 logging.basicConfig(stream=sys.stderr)
+# logging.basicConfig(filename='/var/log/apache2/record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
 
 config = {
     "DEBUG": True,          # some Flask specific configs
@@ -52,10 +54,11 @@ def get_word_by_index(words, idx):
 @app.route('/lausn', methods=['POST'])
 def show_solution():
     idx = cache.get("wordidx")
-    logging.debug("indx {0}".format(idx))
-    w = get_word_by_index(get_ordabok(), int(idx))
+    app.logger.debug("indx {0}".format(idx))
+    w = get_word_by_index(get_ordabok(), idx)
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
+    app.logger.debug("arnastofnun = {0}".format(w['arnastofnun']))
     return render_template('lausn.html', wort=result_w, arnastofnun=result_as)
     #return render_template('lausn.html', wort="str(idx)")
 
