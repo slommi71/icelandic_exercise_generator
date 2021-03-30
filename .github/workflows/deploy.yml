@@ -48,4 +48,4 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          command: "sudo service apache2 restart"
+          script: "sudo service apache2 restart"
