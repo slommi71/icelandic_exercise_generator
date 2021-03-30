@@ -60,7 +60,7 @@ def show_solution():
     app.logger.debug("indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
     if not w:
-        app.logger.error("cache empty? Got no indexyy")
+        app.logger.error("cache empty? Got no index")
         index()
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])

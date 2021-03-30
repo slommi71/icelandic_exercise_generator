@@ -221,8 +221,8 @@
   de: Cheeseburger
   arnastofnun: leit/ostborgari
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: pabbi
   class: nafnorð
   kyns: karlkyns
@@ -269,111 +269,111 @@
   de: Telefon
   arnastofnun: leit/sími
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: skjálfti
   class: nafnorð
   de: Beben, Erschütterung
   arnastofnun: leit/skjálfti
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: skápur
   class: nafnorð
   kyns: karlkyns
   de: Schrank
   arnastofnun: leit/skápur
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: spegill
   class: nafnorð
   kyns: karlkyns
   de: Spiegel
   arnastofnun: leit/spegill
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: steinn
   class: nafnorð
   kyns: karlkyns
   de: Stein
   arnastofnun: beyging/5174
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: stóll
   class: nafnorð
   kyns: karlkyns
   de: Stuhl
   arnastofnun: beyging/4753
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: sveppur
   class: nafnorð
   kyns: karlkyns
   de: Pilz
   arnastofnun: leit/sveppur
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: tómatur
   class: nafnorð
   kyns: karlkyns
   de: Tomate
   arnastofnun: leit/tómatur
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: vaskur
   class: nafnorð
   kyns: karlkyns
   de: Waschbecken
   arnastofnun: beyging/6412
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: vindur
   class: nafnorð
   kyns: karlkyns
   de: Wind
   arnastofnun: beyging/6142
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: vinur
   class: nafnorð
   kyns: karlkyns
   de: Freund
   arnastofnun: leit/vinur
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: Þjónn
   class: nafnorð
   kyns: karlkyns
   de: Kellner
   arnastofnun: leit/Þjónn
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: Þjóðverji
   class: nafnorð
   kyns: karlkyns
   de: Deutscher
   arnastofnun: leit/Þjóðverji
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kjúklingur
   class: nafnorð
   kyns: karlkyns
   de: Huhn, Hühnchen
   arnastofnun: leit/kjúklingur
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: blússa
   class: nafnorð
   kyns: kvenkyns
@@ -388,168 +388,168 @@
   de: Gurke
   arnastofnun: leit/agúrka
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: baun
   class: nafnorð
   kyns: kvenkyns
   de: Bohne
   arnastofnun: leit/baun
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: bar
   class: nafnorð
   kyns: kvenkyns
   de: Bar
   arnastofnun: beyging/5628
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: búð
   class: nafnorð
   kyns: kvenkyns
   de: Laden
   arnastofnun: beyging/10448
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: bók
   class: nafnorð
   kyns: kvenkyns
   de: Buch
   arnastofnun: leit/bók
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: borg
   class: nafnorð
   kyns: kvenkyns
   de: Stadt
   arnastofnun: beyging/10441
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: brottför
   class: nafnorð
   kyns: kvenkyns
   de: Abfahrt, Abreise
   arnastofnun: leit/brottför
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: bygging
   class: nafnorð
   kyns: kvenkyns
   de: Gebäude
   arnastofnun: leit/bygging
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: eyja
   class: nafnorð
   kyns: kvenkyns
   de: Insel
   arnastofnun: beyging/13901
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: flaska
   class: nafnorð
   kyns: kvenkyns
   de: Flasche
   arnastofnun: beyging/16682
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: gulrót
   class: nafnorð
   kyns: kvenkyns
   de: Karotte, Mohrrübe
   arnastofnun: leit/gulrót
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: hurð
   class: nafnorð
   kyns: kvenkyns
   de: Tür
   arnastofnun: leit/hurð
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kaka
   class: nafnorð
   kyns: kvenkyns
   de: Kuchen
   arnastofnun: leit/kaka
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kanna
   class: nafnorð
   kyns: kvenkyns
   de: Kanne
   arnastofnun: beyging/14893
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kartafla
   class: nafnorð
   kyns: kvenkyns
   de: Kartoffel
   arnastofnun: leit/kartafla
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kjötbolla
   class: nafnorð
   kyns: kvenkyns
   de: Bullete, Klops, Fleischpflanzerl
   arnastofnun: leit/kjötbolla
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: klukka
   class: nafnorð
   kyns: kvenkyns
   de: Uhr
   arnastofnun: beyging/16559
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kona
   class: nafnorð
   kyns: kvenkyns
   de: Frau
   arnastofnun: leit/kona
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kvittun
   class: nafnorð
   kyns: kvenkyns
   de: Quittung, Beleg
   arnastofnun: leit/kvittun
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: mamma
   class: nafnorð
   kyns: kvenkyns
   de: Mama
   arnastofnun: leit/mamma
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: milljón
   class: nafnorð
   kyns: kvenkyns
   de: Million
   arnastofnun: beyging/10498
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: mjólk
   class: nafnorð
   kyns: kvenkynsnafnorð
@@ -564,72 +564,72 @@
   de: Bild
   arnastofnun: leit/mynd
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: náttúra
   class: nafnorð
   kyns: kvenkyns
   de: Natur
   arnastofnun: leit/náttúra
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: nótt
   class: nafnorð
   kyns: kvenkyns
   de: Nacht
   arnastofnun: beyging/479304
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: núðla
   class: nafnorð
   kyns: kvenkyns
   de: Nudel
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: paprika
   class: nafnorð
   kyns: kvenkyns
   de: Paprika
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: pítsa
   class: nafnorð
   kyns: kvenkyns
   de: Pizza
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: pylsa
   class: nafnorð
   kyns: kvenkyns
   de: Wurst, Hotdog
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: pöntun
   class: nafnorð
   kyns: kvenkyns
   de: Bestellung
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: rigning
   class: nafnorð
   kyns: kvenkyns
   de: Regen
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: rós
   class: nafnorð
   kyns: kvenkyns
@@ -660,358 +660,358 @@
   de: Prost
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: skeið
   class: nafnorð
   kyns: kvenkyns
   de: Löffel
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: skyrta
   class: nafnorð
   kyns: kvenkyns
   de: Hemd
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: stelpa
   class: nafnorð
   kyns: kvenkyns
   de: Mädchen
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: strönd
   class: nafnorð
   kyns: kvenkyns
   de: Strand
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: sturta
   class: nafnorð
   kyns: kvenkyns
   de: Dusche
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: sæng
   class: nafnorð
   kyns: kvenkyns
   de: Bettdecke
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: taska
   class: nafnorð
   kyns: kvenkyns
   de: Tasche
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: túristi
   class: nafnorð
   kyns: kvenkyns
   de: Tourist
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: verslun
   class: nafnorð
   kyns: kvenkyns
   de: Geschäft
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: æfing
   class: nafnorð
   kyns: kvenkyns
   de: Übung
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: afmæli
   class: nafnorð
   kyns: hvorugkyns
   de: Geburtstag
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: auga
   class: nafnorð
   kyns: hvorugkyns
   de: Auge
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: barn
   class: nafnorð
   kyns: hvorugkyns
   de: Kind
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: bað
   class: nafnorð
   kyns: hvorugkyns
   de: Bad
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: batterí
   class: nafnorð
   kyns: hvorugkyns
   de: Batterie
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: bíó
   class: nafnorð
   kyns: hvorugkyns
   de: Kino
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: blað
   class: nafnorð
   kyns: hvorugkyns
   de: Zeitung
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: blomkál
   class: nafnorð
   kyns: hvorugkyns
   de: Blumenkohl
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: borð
   class: nafnorð
   kyns: hvorugkyns
   de: Tisch
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: brokkolí
   class: nafnorð
   kyns: hvorugkyns
   de: Brokkoli
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: eldfjall
   class: nafnorð
   kyns: hvorugkyns
   de: Vulkan
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: epli
   class: nafnorð
   kyns: hvorugkyns
   de: Apfel
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: eyra
   class: nafnorð
   kyns: hvorugkyns
   de: Ohr
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: fjall
   class: nafnorð
   kyns: hvorugkyns
   de: Berg
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: glas
   class: nafnorð
   kyns: hvorugkyns
   de: Glas
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: gaman
   class: nafnorð
   kyns: hvorugkyns
   de: Freude
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: gos
   class: nafnorð
   kyns: hvorugkyns
   de: Limonade, Softdrink
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: grænmeti
   class: nafnorð
   kyns: hvorugkyns
   de: Gemüse
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: hjarta
   class: nafnorð
   kyns: hvorugkyns
   de: Herz
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: hótel
   class: nafnorð
   kyns: hvorugkyns
   de: Hotel
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: hundrað
   class: nafnorð
   kyns: hvorugkyns
   de: Hundert
   arnastofnun: beyging/1711
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kaffi
   class: nafnorð
   kyns: hvorugkyns
   de: Kaffee
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kál
   class: nafnorð
   kyns: hvorugkyns
   de: Kohl
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kerti
   class: nafnorð
   kyns: hvorugkyns
   de: Kerze
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kók
   class: nafnorð
   kyns: hvorugkyns
   de: Cola
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kort
   class: nafnorð
   kyns: hvorugkyns
   de: Karte
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kreditkort
   class: nafnorð
   kyns: hvorugkyns
   de: Kerditkarte
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: kvöld
   class: nafnorð
   kyns: hvorugkyns
   de: Abend
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: lasanja
   class: nafnorð
   kyns: hvorugkyns
   de: Lasangne
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: lunga
   class: nafnorð
   kyns: hvorugkyns
   de: Lunge
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: lyklaborð
   class: nafnorð
   de: Tastatur
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: nýra
   class: nafnorð
   kyns: hvorugkyns
   de: Niere
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: pasta
   class: nafnorð
   kyns: hvorugkyns
   de: Pasta
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: rúm
   class: nafnorð
   kyns: hvorugkyns
   de: Bett
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: salat
   class: nafnorð
   kyns: hvorugkyn
@@ -1042,24 +1042,24 @@
   de: Schokolade
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: té
   class: nafnorð
   kyns: hvorugkyns
   de: Tee
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: útvarp
   class: nafnorð
   kyns: hvorugkyns
   de: Radio
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: ["-", "-", "-", "-"]
+    pf: ["-", "-", "-", "-"]
 - is: vatn
   class: nafnorð
   kyns: hvorugkyns
