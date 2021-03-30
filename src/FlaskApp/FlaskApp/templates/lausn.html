@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/lausn.css') }}">
     <title>Læra islensku</title>
   </head>
   <body>
@@ -12,6 +13,35 @@
     <div class="wort">{{ wort }}</div>
     <br>
     <div class="link">Wort bei <a href="https://bin.arnastofnun.is/{{ arnastofnun }}"> arnastofnun.is</a> ansehen.</div>
+    Beygingarmynd:<br>
+    <table class="table table-hover table-responsive" cellpadding="6">
+      <thead>
+          <tr class="thead-light"><th colspan="3" align="center">Eintala</th></tr>
+          <tr>
+          </tr>
+          <tr>
+            <td width="10%"></td>
+            <td width="20%" align="center">án&nbsp;greinis</td>
+            <td width="20%" align="center">með&nbsp;greini</td>
+          </tr><tr>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nf.</td>
+          <td><span class="VO_beygingarmynd">reikningur</span></td>
+          <td><span class="VO_beygingarmynd">reikningurinn</span></td>
+        </tr>
+        <tr>
+          <td>Þf.</td>
+          <td><span class="VO_beygingarmynd">reikning</span></td>
+          <td><span class="VO_beygingarmynd">reikninginn</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    </table>
+    <div class="wort">{{ wort }}</div>
     <br>
     <form method='POST' action='/'>
         <p><input value='næst' type='SUBMIT'></p>
