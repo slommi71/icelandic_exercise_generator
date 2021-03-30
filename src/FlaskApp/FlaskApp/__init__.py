@@ -18,7 +18,7 @@ config = {
     # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
     "CACHE_TYPE": "FileSystemCache",  # Flask-Caching related configs
     "CACHE_DIR": "/var/tmp",
-    "CACHE_DEFAULT_TIMEOUT": 3600
+    "CACHE_DEFAULT_TIMEOUT": 7200
 }
 app = Flask(__name__)
 
@@ -61,7 +61,7 @@ def show_solution():
     w = get_word_by_index(get_ordabok(), int(idx))
     if not w:
         app.logger.error("cache empty? Got no indexyy")
-        return render_template('lausn.html', wort="", arnastofnun="")
+        index()
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
     # app.logger.debug("arnastofnun = {0}".format(w['arnastofnun']))
