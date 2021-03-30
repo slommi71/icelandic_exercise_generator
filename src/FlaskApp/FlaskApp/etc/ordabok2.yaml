@@ -634,34 +634,26 @@
   class: nafnorð
   kyns: kvenkyns
   de: Rose
-  arnastofnun: leit/
+  arnastofnun: beyging/10397
   beyging:
-    nf: []
-    pf: []
+    nf: [rós, rósin, rósir, rósirnar]
+    pf: [rós, rósina, rósr, rósinar]
 - is: samloka
   class: nafnorð
   kyns: kvenkyns
   de: Samloka
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: [samloka, samlokan, samlokur, samlokurnar]
+    pf: [samloku, samlokuna, samlokur, samlokurnar]
 - is: sígaretta
   class: nafnorð
   kyns: kvenkyns
   de: Zigarette
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
-- is: salat
-  class: nafnorð
-  kyns: kvenkyns
-  de: Salat
-  arnastofnun: leit/
-  beyging:
-    nf: []
-    pf: []
+    nf: [sígaretta, sígarettan, sígarettur, sígaretturnar]
+    pf: [sígarettu, sígarettuna, sígarettur, sígaretturnar]
 - is: skál
   class: nafnorð
   kyns: kvenkyns
@@ -1020,22 +1012,30 @@
   beyging:
     nf: []
     pf: []
+- is: salat
+  class: nafnorð
+  kyns: hvorugkyn
+  de: Salat
+  arnastofnun: leit/
+  beyging:
+    nf: [salat, salatið, salöt, salötin]
+    pf: [salat, salatið, salöt, salötin]
 - is: sjónvarp
   class: nafnorð
   kyns: hvorugkyns
   de: Fernseher
   arnastofnun: leit/
   beyging:
-    nf: []
-    pf: []
+    nf: [sjónvarp, sjónvarpið, sjónvörp, sjónvörpin]
+    pf: [sjónvarp, sjónvarpið, sjónvörp, sjónvörpin]
 - is: skema
   class: nafnorð
   kyns: hvorugkyns
   de: Schema
-  arnastofnun: leit/
+  arnastofnun: leit/skema
   beyging:
-    nf: []
-    pf: []
+    nf: [skema, skemað, skemu, skemun]
+    pf: [skema, skemað, skemu, skemun]
 - is: súkkulaði
   class: nafnorð
   kyns: hvorugkyns
@@ -1064,20 +1064,23 @@
   class: nafnorð
   kyns: hvorugkyns
   de: Wasser
-  arnastofnun: leit/
+  arnastofnun: beyging/3976
   beyging:
-    nf: []
-    pf: []
+    nf: [vatn, vatnð, vötn, vötnin]
+    pf: [vatn, vatnð, vötn, vötnin]
 - is: Þýskaland
   class: nafnorð
   kyns: hvorugkyns
   de: Deutschland
-  arnastofnun: leit/
+  arnastofnun: leit/Þýskaland
   beyging:
-    nf: []
-    pf: []
+    nf: [Þýskaland, , ,]
+    pf: [Þýskaland, , ,]
 - is: Þema
   class: nafnorð
   kyns: hvorugkyns
   de: Thema
-  arnastofnun: leit/
+  arnastofnun: leit/Þema
+    beyging:
+    nf: [Þema, Þemað, Þemu, Þemun]
+    pf: [Þema, Þemað, Þemu, Þemun]
