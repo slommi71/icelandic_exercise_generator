@@ -55,9 +55,10 @@ def get_word_by_index(words, idx):
 @app.route('/lausn', methods=['POST'])
 def show_solution():
     idx = cache.get("wordidx")
-    # app.logger.debug("indx {0}".format(idx))
+    app.logger.debug("indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
     if not w:
+        app.logger.error("cache empty? Got no indexyy")
         return render_template('lausn.html', wort="", arnastofnun="")
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
