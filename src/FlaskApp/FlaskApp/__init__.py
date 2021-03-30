@@ -9,11 +9,20 @@ from flask_caching import Cache
 from flask import Flask, render_template
 
 
+config = {
+    "DEBUG": True,          # some Flask specific configs
+    "CACHE_TYPE": "simple",  # Flask-Caching related configs
+    "CACHE_DEFAULT_TIMEOUT": 300
+}
 app = Flask(__name__)
 
 # Instantiate the cache
-cache = Cache()
-cache.init_app(app=app, config={"CACHE_TYPE": "SimpleCache"})
+# cache = Cache()
+# cache.init_app(app=app, config={"CACHE_TYPE": "SimpleCache"})
+
+# tell Flask to use the above defined config
+app.config.from_mapping(config)
+cache = Cache(app)
 
 
 @app.route("/", methods=['GET', 'POST'])
