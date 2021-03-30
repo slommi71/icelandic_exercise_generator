@@ -1074,8 +1074,8 @@
   de: Deutschland
   arnastofnun: leit/Þýskaland
   beyging:
-    nf: [Þýskaland, , ,]
-    pf: [Þýskaland, , ,]
+    nf: [Þýskaland, "-", "-", "-"]
+    pf: [Þýskaland, "-", "-", "-"]
 - is: Þema
   class: nafnorð
   kyns: hvorugkyns
