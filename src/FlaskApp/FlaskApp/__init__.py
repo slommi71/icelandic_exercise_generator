@@ -15,8 +15,10 @@ logging.basicConfig(stream=sys.stderr)
 
 config = {
     "DEBUG": True,          # some Flask specific configs
-    "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
-    "CACHE_DEFAULT_TIMEOUT": 300
+    # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
+    "CACHE_TYPE": "FileSystemCache",  # Flask-Caching related configs
+    "CACHE_DIR": "/var/tmp",
+    "CACHE_DEFAULT_TIMEOUT": 3600
 }
 app = Flask(__name__)
 
@@ -30,7 +32,7 @@ cache = Cache(app)
 
 
 @app.route("/", methods=['GET', 'POST'])
-@cache.cached(timeout=300)
+# @cache.cached(timeout=3600)
 def index():
     idx, w = get_word(get_ordabok())
     cache.set("wordidx", idx)
