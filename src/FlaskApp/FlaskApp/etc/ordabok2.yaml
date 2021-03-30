@@ -500,8 +500,8 @@
   de: Kartoffel
   arnastofnun: leit/kartafla
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kartafla , kartafla, kartöflur, kartöflurnar ]
+    pf: [kartöflu , kartöfluna, kartöflur, kartöflurnar ]]
 - is: kjötbolla
   class: nafnorð
   kyns: kvenkyns
