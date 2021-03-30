@@ -64,8 +64,10 @@ def show_solution():
         index()
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
-    # app.logger.debug("arnastofnun = {0}".format(w['arnastofnun']))
-    return render_template('lausn.html', wort=result_w, arnastofnun=result_as)
+    beyging_nf = nf1=w['beyging']['nf']
+    beyging_pf = nf1=w['beyging']['pf']
+    app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_nf[0]))
+    return render_template('lausn.html', wort=result_w, arnastofnun=result_as,nf1=beyging_nf[0], nf2=beyging_nf[1], nf3=beyging_nf[2], nf4=beyging_nf[3], pf1=beyging_pf[0], pf2=beyging_pf[1], pf3=beyging_pf[2], pf4=beyging_pf[3])
     #return render_template('lausn.html', wort="str(idx)")
 
 
