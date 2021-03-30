@@ -1,7 +1,7 @@
 import random
 import yaml
 import site
-#import logging
+import logging
 
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
@@ -50,7 +50,7 @@ def get_word_by_index(words, idx):
 @app.route('/lausn', methods=['POST'])
 def show_solution():
     idx = cache.get("wordidx")
-    #logging.debug("indx {0}".format(idx))
+    logging.debug("indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
     result_w = w['is'] + " (" + w['kyns'] + ")"
     result_as = str(w['arnastofnun'])
