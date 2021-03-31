@@ -1,4 +1,11 @@
-# Generator - exercise excel sheets to train icelandic nouns and grammar
+# Project content
+
+This projects maintains 2 app to help learing icelandic.
+
+1. XLSX Generator for list of words
+1. WebApp to train words. 
+
+## Generator - exercise excel sheets to train icelandic nouns and grammar
 
 app to generate excel sheets with exercises to train icelandic vocabulary and grammar.
 
@@ -18,22 +25,40 @@ Your own word list can be entered in `etc/ordabok.yaml` and thus adapted to your
 
 Adjust output folder in config file `etc/ordabok.yaml` by changing `learningsheet_path`.
 
-## Prerequisites
+### Prerequisites
 
 python 3.6 or higher  
 python modules as listed in requirements.txt
 
-## How to execute
+### How to execute
 
 ``` powershell
 pip install -r requirements.txt
 python .\src\createnafnordsheet\app.py
 ```
 
-## Need help to solve exercises?
+### Need help to solve exercises?
 
 On [Árni Magnússon Institute for Icelandic Studies web site](https://bin.arnastofnun.is) you can search for correct grammar. Great web site!
 
-## Output Example
+### Output Example
 
 ![Example file](assets/xls_example.jpg)
+
+
+## WebApp
+
+### TL;DR
+
+[try here](http://138.68.112.214/)
+
+This webapp shows a word from islandic dictionary in german.
+Before selecting "Sýna Lausn" try to speak this word in icelandic,
+- with correct article
+- in singular and plural
+- in accusative and nominative
+  
+Then goi ahead, click "Sýna Lausn". This shows the icelandic trnaslation,
+also the declension (accusative and nominative) with and without article.
+
+There is also always a dirrct link to great site of arnastofnun.is with this word.
