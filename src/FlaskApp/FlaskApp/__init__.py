@@ -36,6 +36,11 @@ cache = Cache(app)
 def index():
     idx, w = get_word(get_ordabok())
     cache.set("wordidx", idx)
+    # for envvar in ['HTTP_X_REAL_IP', 'HTTP_REFERER', 'request_id', 'start_time']:
+    #   app.logger.debug(
+    #       envvar + ": " + request.environ.get(envvar, request.remote_addr))
+    # app.logger.debug('REQUEST_METHOD' + ': ' +
+    #                  request.environ.get('REQUEST_METHOD'))
     #return render_template('index.html', wort=str(idx))
     return render_template('index.html', wort=w['de'])
 
