@@ -1,4 +1,12 @@
 ---
+- is: bar
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bar (Gastronomie)
+  arnastofnun: beyging/5628
+  beyging:
+    nf: [bar, barinn, barir, barirnar]
+    pf: [bar, barinn, bari, barina]
 - is: bíll
   class: nafnorð
   kyns: karlkyns
@@ -221,8 +229,8 @@
   de: Cheeseburger
   arnastofnun: leit/ostborgari
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [ostborgari, ostborgarinn, ostborgarar, ostborgararnir]
+    pf: [ostborgara, ostborgarann, ostborgara, ostborgarana]
 - is: pabbi
   class: nafnorð
   kyns: karlkyns
@@ -269,111 +277,111 @@
   de: Telefon
   arnastofnun: leit/sími
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [sími, síminn, símar, símarnir]
+    pf: [síma, símann, síma, símana]
 - is: skjálfti
   class: nafnorð
   de: Beben, Erschütterung
   arnastofnun: leit/skjálfti
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [skjálfti, skjálftinn, skjálftar, skjálftarnir]
+    pf: [skjálfta, skjálftann, skjálfta, skjálftana]
 - is: skápur
   class: nafnorð
   kyns: karlkyns
   de: Schrank
   arnastofnun: leit/skápur
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [skápur, skápurinn, skápar, skáparnir]
+    pf: [skáp, skápinn, skápa, skápana]
 - is: spegill
   class: nafnorð
   kyns: karlkyns
   de: Spiegel
   arnastofnun: leit/spegill
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [spegill, spegillinn, speglar, speglarnir]
+    pf: [spegil, spegilinn, spegla, speglana]
 - is: steinn
   class: nafnorð
   kyns: karlkyns
   de: Stein
   arnastofnun: beyging/5174
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [steinn, steinninn, steinar, steinarnir]
+    pf: [stein, steininn, steina, steinana]
 - is: stóll
   class: nafnorð
   kyns: karlkyns
   de: Stuhl
   arnastofnun: beyging/4753
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [stóll, stóllinn, stólar, stólarnir]
+    pf: [stól, stólinn, stóla, stólana]
 - is: sveppur
   class: nafnorð
   kyns: karlkyns
   de: Pilz
   arnastofnun: leit/sveppur
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [sveppur, sveppurinn, sveppar, svepparnir]
+    pf: [svepp, sveppinn, sveppa, sveppana]
 - is: tómatur
   class: nafnorð
   kyns: karlkyns
   de: Tomate
   arnastofnun: leit/tómatur
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [tómatur, tómaturinn, tómatar, tómatarnir]
+    pf: [tómat, tómatinn, tómata, tómatana]
 - is: vaskur
   class: nafnorð
   kyns: karlkyns
   de: Waschbecken
   arnastofnun: beyging/6412
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [vaskur, vaskurinn, vaskar, vaskarnir]
+    pf: [vask, vaskinn, vaska, vaskana]
 - is: vindur
   class: nafnorð
   kyns: karlkyns
   de: Wind
   arnastofnun: beyging/6142
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [vindur, vindurinn, vindar, vindarnir]
+    pf: [vind, vindinn, vinda, vindana]
 - is: vinur
   class: nafnorð
   kyns: karlkyns
   de: Freund
   arnastofnun: leit/vinur
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [vinur, vinurinn, vinir, vinirnir]
+    pf: [vin, vininn, vini, vinina]
 - is: Þjónn
   class: nafnorð
   kyns: karlkyns
   de: Kellner
   arnastofnun: leit/Þjónn
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [Þjónn, Þjónninn, Þjónar, Þjónarnir]
+    pf: [Þjón, Þjóninn, Þjóna, Þjónana]
 - is: Þjóðverji
   class: nafnorð
   kyns: karlkyns
   de: Deutscher
   arnastofnun: leit/Þjóðverji
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [Þjóðverji, Þjóðverjinn, Þjóðverjar, Þjóðverjarnir]
+    pf: [Þjóðverja, Þjóðverjann, Þjóðverja, Þjóðverjana]
 - is: kjúklingur
   class: nafnorð
   kyns: karlkyns
   de: Huhn, Hühnchen
   arnastofnun: leit/kjúklingur
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kjúklingur, kjúklingurinn, kjúklingar, kjúklingarnir]
+    pf: [kjúkling, kjúklinginn, kjúklinga, kjúklingana]
 - is: blússa
   class: nafnorð
   kyns: kvenkyns
@@ -388,112 +396,104 @@
   de: Gurke
   arnastofnun: leit/agúrka
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [agúrka, agúrkan, agúrkur, agúrkurnar]
+    pf: [agúrku, agúrkun, agúrkur, agúrkurnar]
 - is: baun
   class: nafnorð
   kyns: kvenkyns
   de: Bohne
   arnastofnun: leit/baun
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
-- is: bar
-  class: nafnorð
-  kyns: kvenkyns
-  de: Bar
-  arnastofnun: beyging/5628
-  beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [baun, baunin, baunir, baunirnar]
+    pf: [baun, baunina, baunir, baunirnar]
 - is: búð
   class: nafnorð
   kyns: kvenkyns
   de: Laden
   arnastofnun: beyging/10448
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [búð, búðin, búðir, búðirnar]
+    pf: [búð, búðina, búðir, búðirnar]
 - is: bók
   class: nafnorð
   kyns: kvenkyns
   de: Buch
   arnastofnun: leit/bók
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [bók, bókin, bækur, bækurnar]
+    pf: [bók, bókina, bækur, bækurnar]
 - is: borg
   class: nafnorð
   kyns: kvenkyns
   de: Stadt
   arnastofnun: beyging/10441
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [borg, borgin, borgir, borgirnar]
+    pf: [borg, borgina, borgir, borgirnar]
 - is: brottför
   class: nafnorð
   kyns: kvenkyns
   de: Abfahrt, Abreise
   arnastofnun: leit/brottför
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [brottför,brottförin, brottfarir, brottfarirnar]
+    pf: [brottför,brottförina, brottfarir, brottfarirnar]
 - is: bygging
   class: nafnorð
   kyns: kvenkyns
   de: Gebäude
   arnastofnun: leit/bygging
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [bygging, byggingin, byggingar, byggingarnar]
+    pf: [bygging, byggingina, byggingar, byggingarnar]
 - is: eyja
   class: nafnorð
   kyns: kvenkyns
   de: Insel
   arnastofnun: beyging/13901
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [eyja, eyjan, eyjur, eyjurnir]
+    pf: [eyju, eyjun, eyjur, eyjurnur]
 - is: flaska
   class: nafnorð
   kyns: kvenkyns
   de: Flasche
   arnastofnun: beyging/16682
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [flaska, flaskan, flöskur, flöskur]
+    pf: [flösku, flöskun, flöskur, flöskur]
 - is: gulrót
   class: nafnorð
   kyns: kvenkyns
   de: Karotte, Mohrrübe
   arnastofnun: leit/gulrót
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [gulrót, gulrótin, gulrætur, gulræturnar]
+    pf: [gulrót, gulrótina, gulrætur, gulræturnar]
 - is: hurð
   class: nafnorð
   kyns: kvenkyns
   de: Tür
   arnastofnun: leit/hurð
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [hurð, hurðin, hurðir, hurðirnar]
+    pf: [hurð, hurðina, hurðir, hurðirnar]
 - is: kaka
   class: nafnorð
   kyns: kvenkyns
   de: Kuchen
   arnastofnun: leit/kaka
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kaka, kakan, kökur, kökurnar]
+    pf: [köku, kokuna, kökur, kökurnar]
 - is: kanna
   class: nafnorð
   kyns: kvenkyns
   de: Kanne
   arnastofnun: beyging/14893
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kanna, kannan, könnur, könnurnar]
+    pf: [könnu, könnuna, könnur, könnurnar]
 - is: kartafla
   class: nafnorð
   kyns: kvenkyns
@@ -501,47 +501,47 @@
   arnastofnun: leit/kartafla
   beyging:
     nf: [kartafla , kartafla, kartöflur, kartöflurnar ]
-    pf: [kartöflu , kartöfluna, kartöflur, kartöflurnar ]]
+    pf: [kartöflu , kartöfluna, kartöflur, kartöflurnar ]
 - is: kjötbolla
   class: nafnorð
   kyns: kvenkyns
   de: Bullete, Klops, Fleischpflanzerl
   arnastofnun: leit/kjötbolla
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kjötbolla, kjötbollan, kjötbollur, kjötbollurnar]
+    pf: [kjötbollu, kjötbolluna, kjötbollur, kjötbollurnar]
 - is: klukka
   class: nafnorð
   kyns: kvenkyns
   de: Uhr
   arnastofnun: beyging/16559
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [klukka, klukkan, klukkur, klukkurnar]
+    pf: [klukku, klukkuna, klukkur, klukkurnar]
 - is: kona
   class: nafnorð
   kyns: kvenkyns
   de: Frau
   arnastofnun: leit/kona
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kona, konan, konur, konurnar]
+    pf: [konu, konun, konur, konurnar]
 - is: kvittun
   class: nafnorð
   kyns: kvenkyns
   de: Quittung, Beleg
   arnastofnun: leit/kvittun
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [kvittun, kvittunin, kvittanir, kvittanirnar]
+    pf: [kvittun, kvittunina, kvittanir, kvittanirnar]
 - is: mamma
   class: nafnorð
   kyns: kvenkyns
   de: Mama
   arnastofnun: leit/mamma
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [mamma, mamman, mömmur, mömmurnar]
+    pf: [mömmu, mömmuna, mömmur, mömmurnar]
 - is: milljón
   class: nafnorð
   kyns: kvenkyns
@@ -641,8 +641,8 @@
 - is: samloka
   class: nafnorð
   kyns: kvenkyns
-  de: Samloka
-  arnastofnun: leit/
+  de: Sandwich
+  arnastofnun: beyging/151689
   beyging:
     nf: [samloka, samlokan, samlokur, samlokurnar]
     pf: [samloku, samlokuna, samlokur, samlokurnar]
@@ -650,7 +650,7 @@
   class: nafnorð
   kyns: kvenkyns
   de: Zigarette
-  arnastofnun: leit/
+  arnastofnun: leit/sígaretta
   beyging:
     nf: [sígaretta, sígarettan, sígarettur, sígaretturnar]
     pf: [sígarettu, sígarettuna, sígarettur, sígaretturnar]
@@ -660,24 +660,24 @@
   de: Prost
   arnastofnun: leit/
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [skál, skálin, skálir, skálirnar]
+    pf: [skál, skálina, skálir, skálirnar]
 - is: skeið
   class: nafnorð
   kyns: kvenkyns
   de: Löffel
   arnastofnun: leit/
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [skeið, skeiðin, skeiðar, skeiðarnir]
+    pf: [skeið, skeiðina,skeiðar, skeiðarnir]
 - is: skyrta
   class: nafnorð
   kyns: kvenkyns
   de: Hemd
   arnastofnun: leit/
   beyging:
-    nf: ["-", "-", "-", "-"]
-    pf: ["-", "-", "-", "-"]
+    nf: [skyrta, skyrtan, skyrtur, skyrturnar]
+    pf: [skyrta, skyrtuna, skyrtur, skyrturnar]
 - is: stelpa
   class: nafnorð
   kyns: kvenkyns
