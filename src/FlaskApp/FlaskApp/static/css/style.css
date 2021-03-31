@@ -17,7 +17,8 @@ body {
     font-size: 50px;
     font-weight: bold;
     font-family: Papyrus;
-    color:rgb(16, 49, 110)
+    color:rgb(16, 49, 110);
+    margin-bottom: 5px;
 }
 .link {
     text-align: center;
