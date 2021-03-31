@@ -61,7 +61,7 @@ input[type=submit] {
 }
 
 hr.blue {
-    border-top: 1px solid #2a7edd;
+    border-top: 1px dotted #adcff7;
 }
 /* Large rounded green border */
 hr.bluelarge {
