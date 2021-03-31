@@ -58,3 +58,12 @@ input[type=submit] {
     font-size: 30px;
     font-family: fantasy;
 }
+
+hr.blue {
+    border-top: 1px solid #2a7edd;
+}
+/* Large rounded green border */
+hr.bluelarge {
+    border: 6px solid #2a7edd;
+    border-radius: 3px;
+}
