@@ -1,0 +1,416 @@
+TABLE,
+TR,
+TD {
+    font-family: ARIAL, VERDANA, HELVETICA;
+    font-size: 12px;
+    color: #000000 empty-cells:show;
+}
+
+A:active {
+    COLOR: black;
+    font-style: Italic;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+A:link {
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    text-underline: single
+}
+
+A:visited {
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    text-underline: single
+}
+
+h1 {
+    COLOR: black;
+    FONT-SIZE: 19px;
+    MARGIN: 0cm 0cm 0pt;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    FONT-WEIGHT: BOLD;
+}
+
+h2 {
+    FONT-SIZE: 18px;
+    MARGIN: 0cm 0cm 10pt 0cm;
+    COLOR: #00003f;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+h3 {
+    FONT-SIZE: 14px;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: #00003f;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.important {
+    FONT-SIZE: 12pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: darkred;
+    font-weight: bold;
+    font-style: italic;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.box {
+    display: table;
+    border-collapse: collapse;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-weight: normal;
+}
+
+.boxline {
+    display: table-row;
+}
+
+.boxcolumn {
+    display: table-cell;
+    padding: 10px;
+    background-color: #C4B890;
+}
+
+.boxcolumn_print {
+    display: table-cell;
+    padding: 10px;
+    border: thin solid gray;
+}
+
+.boxcolumn_transparent {
+    display: table-cell;
+    padding: 1px;
+}
+
+.boxhead {
+    font-family: ARIAL, VERDANA, HELVETICA, SANS-SERIF;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.image {
+    clear: left;
+    text-align: center;
+    align: center;
+    width: 75%;
+    margin-left: 12%;
+    margin-right: 4%;
+    font-weight: normal;
+}
+
+.infotxt {
+    FONT-SIZE: 10pt;
+    MARGIN: 1cm 1cm 10pt;
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA, SANS-SERIF;
+    font-weight: normal;
+    text-align: justify;
+    clear: left;
+}
+
+.infotxt_center {
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA, SANS-SERIF;
+    font-weight: normal;
+    text-align: center;
+    clear: left;
+}
+
+.small1 {
+    FONT-SIZE: 8pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.small2 {
+    FONT-SIZE: 8pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: darkblue;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.small3 {
+    FONT-SIZE: 7pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: darkblue;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.small4 {
+    FONT-SIZE: 5pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: darkblue;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.table_txt {
+    FONT-SIZE: 9pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.table_txt1 {
+    FONT-SIZE: 8pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: black;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+.table_txt2 {
+    FONT-SIZE: 8pt;
+    MARGIN: 0cm 0cm 0pt;
+    COLOR: lightgray;
+    BACKGROUND: darkgray;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+}
+
+body {
+    position: absolute;
+    padding: 0;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    FONT-SIZE: 10pt;
+    background-image: url(./images/bg.jpg);
+}
+
+/*Menu, Footer, Header*/
+html,
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#header_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    height: 7em;
+    z-index: 3;
+    FONT-SIZE: 19px;
+    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    COLOR: black;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 3;
+    margin: 0;
+    padding: 0.2em;
+    background-image: url(./images/bg.jpg);
+}
+
+#command_container {
+    position: fixed;
+    bottom: 3em;
+    left: 1;
+    right: 0;
+    text-align: right;
+    margin: 0;
+    height: 1em;
+    z-index: 3;
+}
+
+#command {
+    FONT-SIZE: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #C4B890;
+    background: #C4B890;
+    color: black;
+    z-index: 3;
+}
+
+#footer_container {
+    position: fixed;
+    bottom: 0;
+    left: 1;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    height: 3em;
+    z-index: 3;
+}
+
+#footer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-image: url(./images/bg.jpg);
+}
+
+#footer_print {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+#footer_container_print {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    height: 3em;
+    border: 0px solid #dedede;
+    z-index: 3;
+}
+
+#leftarea {
+    position: fixed;
+    top: 3em;
+    width: 5em;
+    height: 80%;
+    left: .5em;
+    border: 10px;
+    padding: .5em;
+    background-image: url(./images/red1_small.jpg);
+}
+
+#rightarea {
+    position: fixed;
+    top: 3em;
+    width: 10em;
+    height: 80%;
+    right: .5em;
+    border: 10px;
+    padding: .5em;
+}
+
+#content {
+    margin: 0;
+    top: 0em;
+    padding-top: 10em;
+    padding-left: 3em;
+    padding-bottom: 6em;
+    z-index: 2;
+    text-align: center;
+}
+
+.fachinhalt {
+    text-align: justify;
+    margin: 30px, 150px, 0, 150px;
+    width: 75%;
+}
+
+#printcontent {
+    margin: 0;
+    top: 0em;
+    padding-top: 9em;
+    padding-left: 0em;
+    padding-bottom: 4em;
+    z-index: 2;
+    text-align: center;
+}
+
+/* Nun für den MSIE */
+* html,
+* html body {
+    overflow: hidden;
+    bottom: 0;
+    height: 100%;
+
+}
+
+* html #header_container,
+* html #footer_container,
+* html #command_container,
+* html #footer_container_print {
+    position: absolute;
+    width: 100%;
+    padding-right: 20px;
+}
+
+* html #leftarea {
+    position: absolute;
+}
+
+* html #header,
+* html #footer,
+* html #command,
+* html #footer_print {
+    height: 100%;
+    position: static;
+}
+
+* html #content,
+* html #printcontent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+#leftarea li {
+    FONT-SIZE: 14px;
+    border: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0.3em;
+}
+
+#leftarea li#active {
+    padding: 0.5em;
+    /*text-decoration:underline;*/
+    background: #C4B890;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    color: #232323;
+}
+
+#leftarea a:link,
+#leftarea a:visited {
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    margin: 0;
+    padding: 0.2em;
+    ;
+}
+
+#leftarea a:hover {
+    background: #A00000;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+* html #leftarea {
+    margin: 0;
+    height: 85%;
+    width: 7em;
+    /* Der IE soll das Element breiter darstellen, da margin und padding hier von
+                                            der Breite abgezogen wird! */
+}
