@@ -1,4 +1,4 @@
-TABLE,
+/* TABLE,
 TR,
 TD {
     font-family: ARIAL, VERDANA, HELVETICA;
@@ -23,7 +23,6 @@ A:visited {
     FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
     text-underline: single
 }
-
 h1 {
     COLOR: black;
     FONT-SIZE: 19px;
@@ -44,7 +43,7 @@ h3 {
     MARGIN: 0cm 0cm 0pt;
     COLOR: #00003f;
     FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
-}
+} */
 
 .important {
     FONT-SIZE: 12pt;
@@ -173,9 +172,9 @@ h3 {
 body {
     position: absolute;
     padding: 0;
-    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    /* FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
     FONT-SIZE: 10pt;
-    background-image: url(./images/bg.jpg);
+    background-image: url(./images/bg.jpg); */
 }
 
 /*Menu, Footer, Header*/
