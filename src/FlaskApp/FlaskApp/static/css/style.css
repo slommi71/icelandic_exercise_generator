@@ -54,7 +54,6 @@ body {
     z-index: 3;
 }
 
-
 .wort {
     text-align: center;
     font-size: 50px;
@@ -81,6 +80,9 @@ body {
     margin-right:15%;
 }
 
+table {
+    text-align: center;
+}
 .thead-light {
     text-align: center;
     color: black;
