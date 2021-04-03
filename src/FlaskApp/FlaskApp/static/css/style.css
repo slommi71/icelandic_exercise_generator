@@ -304,12 +304,6 @@ body {
     text-align: center;
 }
 
-.fachinhalt {
-    text-align: justify;
-    margin: 30px, 150px, 0, 150px;
-    width: 75%;
-}
-
 #printcontent {
     margin: 0;
     top: 0em;
