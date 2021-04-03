@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/formate.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+        "popup": {
+          "background": "#3c404d",
+          "text": "#d6d6d6"
+        },
+        "button": {
+          "background": "#93c54b",
+          "text": "#3e3f3a"
+        }
+        },
+        "theme": "edgeless",
+        "position": "bottom-right",
+        "content": {
+        "message": "Mit der Nutzung der Seiten und Services erkl&auml;ren Sie sich damit einverstanden, dass wir Cookies verwenden.",
+        "dismiss": "Verstanden !",
+        "link": "Datenschutzerkl&auml;rung",
+        "href": "https://slomka.biz/de/privacy.html"
+        }
+      })});
+      </script>
     <title>Læra islensku</title>
   </head>
   <body>
