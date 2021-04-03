@@ -6,18 +6,15 @@ h1 {
     MARGIN: 0cm 0cm 0pt;
 }
 
-.small1 {
-    FONT-SIZE: 8pt;
-    MARGIN: 0cm 0cm 0pt;
-    COLOR: black;
-    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
-}
-
 .small2 {
-    FONT-SIZE: 6pt;
-    MARGIN: 0cm 0cm 0pt;
-    COLOR: darkblue;
-    FONT-FAMILY: ARIAL, VERDANA, HELVETICA;
+    font-size: 12px;
+    margin: 0cm 0cm 0pt;
+    color: rgb(65, 114, 204);
+    font-family: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
 }
 
 body {
