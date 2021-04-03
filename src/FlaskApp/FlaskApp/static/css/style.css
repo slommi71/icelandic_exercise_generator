@@ -10,11 +10,7 @@ h1 {
     font-size: 12px;
     margin: 0cm 0cm 0pt;
     color: rgb(65, 114, 204);
-    font-family: 'Gill Sans',
-    'Gill Sans MT',
-    Calibri,
-    'Trebuchet MS',
-    sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -36,19 +32,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
-#command {
-    FONT-SIZE: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid #C4B890;
-    background: #C4B890;
-    color: black;
-    z-index: 3;
 }
 
 #footer_container {
@@ -96,6 +79,13 @@ body {
     width:70%;
     margin-left:15%;
     margin-right:15%;
+}
+
+.thead-light {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input[type=text] {
