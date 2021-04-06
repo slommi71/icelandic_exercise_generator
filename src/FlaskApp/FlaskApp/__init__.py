@@ -31,14 +31,6 @@ app.config.from_mapping(config)
 cache = Cache(app)
 
 
-def get_unique_session_id():
-    client_ip = request.environ.get('REMOTE_ADDR')
-    # Port ändert sich, wenn zu lange keine Eingabe. Nicht nutzbar
-    # client_port = request.environ.get('REMOTE_PORT')
-    # return client_ip.replace('.', '')+client_port
-    return client_ip.replace('.', '')
-
-
 @app.route("/", methods=['GET', 'POST'])
 # @cache.cached(timeout=3600)
 def index():
@@ -53,20 +45,6 @@ def index():
     #                  request.environ.get('SERVER_PORT'))
     #return render_template('index.html', wort=str(idx))
     return render_template('index.html', wort=w['de'])
-
-
-def get_ordabok():
-    with open('/var/www/FlaskApp/FlaskApp/etc/ordabok2.yaml', 'rt', encoding='utf') as f:
-        return yaml.safe_load(f.read())
-
-
-def get_word(words):
-    idx = random.randint(0, len(words)-1)
-    return idx, words[idx]
-
-
-def get_word_by_index(words, idx):
-    return words[idx]
 
 
 @app.route('/lausn', methods=['POST'])
@@ -84,7 +62,25 @@ def show_solution():
     beyging_pf = nf1=w['beyging']['pf']
     app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_nf[0]))
     return render_template('lausn.html', wort=result_w, arnastofnun=result_as,nf1=beyging_nf[0], nf2=beyging_nf[1], nf3=beyging_nf[2], nf4=beyging_nf[3], pf1=beyging_pf[0], pf2=beyging_pf[1], pf3=beyging_pf[2], pf4=beyging_pf[3])
-    #return render_template('lausn.html', wort="str(idx)")
+
+
+def get_unique_session_id():
+    client_ip = request.environ.get('REMOTE_ADDR')
+    return client_ip.replace('.', '')
+
+
+def get_ordabok():
+    with open('/var/www/FlaskApp/FlaskApp/etc/ordabok2.yaml', 'rt', encoding='utf') as f:
+        return yaml.safe_load(f.read())
+
+
+def get_word(words):
+    idx = random.randint(0, len(words)-1)
+    return idx, words[idx]
+
+
+def get_word_by_index(words, idx):
+    return words[idx]
 
 
 if __name__ == "__main__":
