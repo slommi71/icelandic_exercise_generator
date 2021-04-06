@@ -4,3 +4,4 @@ Flask
 flask_caching
 Scrapy
 requests
+flask_socketio

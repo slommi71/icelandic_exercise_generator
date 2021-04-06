@@ -1,3 +1,6 @@
+from flask_caching import Cache
+from flask import Flask, render_template, request
+from flask_socketio import SocketIO
 import random
 import yaml
 import site
@@ -6,8 +9,8 @@ import sys
 
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
-from flask_caching import Cache
-from flask import Flask, render_template, request
+# http://brunorocha.org/python/flask/using-flask-cache.html
+
 
 logging.basicConfig(stream=sys.stderr)
 # logging.basicConfig(filename='/var/log/apache2/record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
@@ -20,7 +23,10 @@ config = {
     "CACHE_DIR": "/var/tmp",
     "CACHE_DEFAULT_TIMEOUT": 7200
 }
+
+async_mode = None
 app = Flask(__name__)
+socket_ = SocketIO(app, async_mode=async_mode)
 
 # Instantiate the cache
 # cache = Cache()
@@ -44,7 +50,8 @@ def index():
     # app.logger.debug('SERVER_PORT' + ': ' +
     #                  request.environ.get('SERVER_PORT'))
     #return render_template('index.html', wort=str(idx))
-    return render_template('index.html', wort=w['de'])
+    return render_template('index.html', wort=w['de'],
+                            sync_mode=socket_.async_mode)
 
 
 @app.route('/lausn', methods=['POST'])
@@ -61,7 +68,13 @@ def show_solution():
     beyging_nf = nf1=w['beyging']['nf']
     beyging_pf = nf1=w['beyging']['pf']
     app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_nf[0]))
-    return render_template('lausn.html', wort=result_w, arnastofnun=result_as,nf1=beyging_nf[0], nf2=beyging_nf[1], nf3=beyging_nf[2], nf4=beyging_nf[3], pf1=beyging_pf[0], pf2=beyging_pf[1], pf3=beyging_pf[2], pf4=beyging_pf[3])
+    return render_template('lausn.html', wort=result_w,
+                            arnastofnun=result_as,
+                            nf1=beyging_nf[0], nf2=beyging_nf[1],
+                            nf3=beyging_nf[2], nf4=beyging_nf[3],
+                            pf1=beyging_pf[0], pf2=beyging_pf[1],
+                            pf3=beyging_pf[2], pf4=beyging_pf[3],
+                            sync_mode=socket_.async_mode)
 
 
 def get_unique_session_id():
@@ -84,4 +97,5 @@ def get_word_by_index(words, idx):
 
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
+    socket_.run(app, debug=True)
