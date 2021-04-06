@@ -7,7 +7,7 @@ import sys
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
 from flask_caching import Cache
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 logging.basicConfig(stream=sys.stderr)
 # logging.basicConfig(filename='/var/log/apache2/record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
@@ -31,16 +31,26 @@ app.config.from_mapping(config)
 cache = Cache(app)
 
 
+def get_unique_session_id():
+    client_ip = request.environ.get('REMOTE_ADDR')
+    # Port ändert sich, wenn zu lange keine Eingabe. Nicht nutzbar
+    # client_port = request.environ.get('REMOTE_PORT')
+    # return client_ip.replace('.', '')+client_port
+    return client_ip.replace('.', '')
+
+
 @app.route("/", methods=['GET', 'POST'])
 # @cache.cached(timeout=3600)
 def index():
     idx, w = get_word(get_ordabok())
-    cache.set("wordidx", idx)
-    # for envvar in ['HTTP_X_REAL_IP', 'HTTP_REFERER', 'request_id', 'start_time']:
-    #   app.logger.debug(
-    #       envvar + ": " + request.environ.get(envvar, request.remote_addr))
-    # app.logger.debug('REQUEST_METHOD' + ': ' +
-    #                  request.environ.get('REQUEST_METHOD'))
+    cache.set("wordidx"+get_unique_session_id(), idx)
+    app.logger.debug("caching wordidx"+get_unique_session_id())
+    #for env_var in request.environ:
+    #  app.logger.debug(env_var + ": " )
+    # app.logger.debug('REMOTE_PORT' + ': ' +
+    #                  request.environ.get('REMOTE_PORT'))
+    # app.logger.debug('SERVER_PORT' + ': ' +
+    #                  request.environ.get('SERVER_PORT'))
     #return render_template('index.html', wort=str(idx))
     return render_template('index.html', wort=w['de'])
 
@@ -61,8 +71,9 @@ def get_word_by_index(words, idx):
 
 @app.route('/lausn', methods=['POST'])
 def show_solution():
-    idx = cache.get("wordidx")
-    app.logger.debug("indx {0}".format(idx))
+    idx = cache.get("wordidx"+get_unique_session_id())
+    app.logger.debug("getting cached wordidx"+get_unique_session_id())
+    # app.logger.debug("word indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
     if not w:
         app.logger.error("cache empty? Got no index")
