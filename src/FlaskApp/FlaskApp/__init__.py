@@ -1,3 +1,6 @@
+# Add the site-packages of the chosen virtualenv to work with
+site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
+# http://brunorocha.org/python/flask/using-flask-cache.html
 from flask_caching import Cache
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO
@@ -6,10 +9,6 @@ import yaml
 import site
 import logging
 import sys
-
-# Add the site-packages of the chosen virtualenv to work with
-site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
-# http://brunorocha.org/python/flask/using-flask-cache.html
 
 
 logging.basicConfig(stream=sys.stderr)
