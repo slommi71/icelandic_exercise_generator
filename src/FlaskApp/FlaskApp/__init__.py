@@ -1,10 +1,11 @@
+from threading import Lock
+from flask_socketio import SocketIO, emit, disconnect
 import site
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
 # http://brunorocha.org/python/flask/using-flask-cache.html
 from flask_caching import Cache
-from flask import Flask, render_template, request
-from flask_socketio import SocketIO
+from flask import Flask, render_template, request, session, copy_current_request_context
 import random
 import yaml
 import logging
@@ -20,12 +21,15 @@ config = {
     # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
     "CACHE_TYPE": "FileSystemCache",  # Flask-Caching related configs
     "CACHE_DIR": "/var/tmp",
-    "CACHE_DEFAULT_TIMEOUT": 7200
+    "CACHE_DEFAULT_TIMEOUT": 7200,
+    "SECRET_KEY": "fsdfsd_adasd"
 }
 
 async_mode = None
 app = Flask(__name__)
 socket_ = SocketIO(app, async_mode=async_mode)
+thread = None
+thread_lock = Lock()
 
 # Instantiate the cache
 # cache = Cache()
@@ -74,6 +78,39 @@ def show_solution():
                             pf1=beyging_pf[0], pf2=beyging_pf[1],
                             pf3=beyging_pf[2], pf4=beyging_pf[3],
                             sync_mode=socket_.async_mode)
+
+
+@app.route('/socket')
+def index():
+    return render_template('socket.html', async_mode=socket_.async_mode)
+
+
+@socket_.on('my_event', namespace='/test')
+def test_message(message):
+    session['receive_count'] = session.get('receive_count', 0) + 1
+    emit('my_response',
+         {'data': message['data'], 'count': session['receive_count']})
+
+
+@socket_.on('my_broadcast_event', namespace='/test')
+def test_broadcast_message(message):
+    session['receive_count'] = session.get('receive_count', 0) + 1
+    emit('my_response',
+         {'data': message['data'], 'count': session['receive_count']},
+         broadcast=True)
+
+
+@socket_.on('disconnect_request', namespace='/test')
+def disconnect_request():
+    @copy_current_request_context
+    def can_disconnect():
+        disconnect()
+
+    session['receive_count'] = session.get('receive_count', 0) + 1
+    emit('my_response',
+         {'data': 'Disconnected!', 'count': session['receive_count']},
+         callback=can_disconnect)
+
 
 
 def get_unique_session_id():
