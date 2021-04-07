@@ -1,8 +1,8 @@
-from threading import Lock
-from flask_socketio import SocketIO, emit, disconnect
 import site
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/var/www/FlaskApp/FlaskApp/venv/lib/python3.8/site-packages')
+from threading import Lock
+from flask_socketio import SocketIO, emit, disconnect
 # http://brunorocha.org/python/flask/using-flask-cache.html
 from flask_caching import Cache
 from flask import Flask, render_template, request, session, copy_current_request_context
