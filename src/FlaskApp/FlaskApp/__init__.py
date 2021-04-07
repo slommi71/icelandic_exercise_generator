@@ -46,8 +46,7 @@ def index():
     # cache.set("wordidx"+get_unique_session_id(), idx)
     # app.logger.debug("caching wordidx"+get_unique_session_id())
     session['word_index']=idx
-    app.logger.debug("session varaibel word_index set to "  +
-                     session['word_index'])
+    app.logger.debug("session variable word_index set to " + str(idx))
     #for env_var in request.environ:
     #  app.logger.debug(env_var + ": " )
     # app.logger.debug('REMOTE_PORT' + ': ' +
