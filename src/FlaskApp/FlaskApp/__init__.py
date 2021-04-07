@@ -26,9 +26,9 @@ config = {
 
 async_mode = None
 app = Flask(__name__)
-socket_ = SocketIO(app, async_mode=async_mode)
-thread = None
-thread_lock = Lock()
+# socket_ = SocketIO(app, async_mode=async_mode)
+# thread = None
+# thread_lock = Lock()
 
 # Instantiate the cache
 # cache = Cache()
@@ -55,8 +55,9 @@ def index():
     # app.logger.debug('SERVER_PORT' + ': ' +
     #                  request.environ.get('SERVER_PORT'))
     #return render_template('index.html', wort=str(idx))
-    return render_template('index.html', wort=w['de'],
-                            sync_mode=socket_.async_mode)
+    # return render_template('index.html', wort=w['de'],
+    #                         sync_mode=socket_.async_mode)
+    return render_template('index.html', wort=w['de'])
 
 
 @app.route('/lausn', methods=['POST'])
@@ -79,8 +80,7 @@ def show_solution():
                             nf1=beyging_nf[0], nf2=beyging_nf[1],
                             nf3=beyging_nf[2], nf4=beyging_nf[3],
                             pf1=beyging_pf[0], pf2=beyging_pf[1],
-                            pf3=beyging_pf[2], pf4=beyging_pf[3],
-                            sync_mode=socket_.async_mode)
+                            pf3=beyging_pf[2], pf4=beyging_pf[3])
 
 
 
