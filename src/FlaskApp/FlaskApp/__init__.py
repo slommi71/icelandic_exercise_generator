@@ -81,7 +81,7 @@ def show_solution():
 
 
 @app.route('/socket')
-def index():
+def socket():
     return render_template('socket.html', async_mode=socket_.async_mode)
 
 
