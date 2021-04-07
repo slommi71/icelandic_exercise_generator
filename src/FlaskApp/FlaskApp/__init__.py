@@ -46,6 +46,7 @@ def index():
     idx, w = get_word(get_ordabok())
     cache.set("wordidx"+get_unique_session_id(), idx)
     app.logger.debug("caching wordidx"+get_unique_session_id())
+    session['word_index']=idx
     #for env_var in request.environ:
     #  app.logger.debug(env_var + ": " )
     # app.logger.debug('REMOTE_PORT' + ': ' +
@@ -60,6 +61,7 @@ def index():
 @app.route('/lausn', methods=['POST'])
 def show_solution():
     idx = cache.get("wordidx"+get_unique_session_id())
+    idx=session['word_index']
     app.logger.debug("getting cached wordidx"+get_unique_session_id())
     # app.logger.debug("word indx {0}".format(idx))
     w = get_word_by_index(get_ordabok(), int(idx))
