@@ -27,8 +27,6 @@ config = {
 async_mode = None
 app = Flask(__name__)
 # socket_ = SocketIO(app, async_mode=async_mode)
-# thread = None
-# thread_lock = Lock()
 
 # Instantiate the cache
 # cache = Cache()
@@ -49,13 +47,6 @@ def index():
     app.logger.debug("session variable word_index set to " + str(idx))
     #for env_var in request.environ:
     #  app.logger.debug(env_var + ": " )
-    # app.logger.debug('REMOTE_PORT' + ': ' +
-    #                  request.environ.get('REMOTE_PORT'))
-    # app.logger.debug('SERVER_PORT' + ': ' +
-    #                  request.environ.get('SERVER_PORT'))
-    #return render_template('index.html', wort=str(idx))
-    # return render_template('index.html', wort=w['de'],
-    #                         sync_mode=socket_.async_mode)
     return render_template('index.html', wort=w['de'])
 
 
