@@ -7,6 +7,22 @@
   beyging:
     nf: [ávöxtur, ávöxturinn, ávextir, ávextirnir ]
     pf: [ávöxt, ávöxtinn, ávexti/ávöxtu, ávextina]
+- is: afn
+  class: nafnorð
+  kyns: kvenkyns
+  de: Opa
+  arnastofnun: beyging/5628
+  beyging:
+    nf: [ávöxtur, ávöxturinn, ávextir, ávextirnir ]
+    pf: [ávöxt, ávöxtinn, ávexti/ávöxtu, ávextina]
+- is: afi
+  class: nafnorð
+  kyns: kvenkyns
+  de: Opa
+  arnastofnun: leit/afi
+  beyging:
+    nf: [afi, afinn, afar, afarnar]
+    pf: [afa, afann, afa, afana]
 - is: bar
   class: nafnorð
   kyns: kvenkyns
@@ -71,6 +87,14 @@
   beyging:
     nf: [dagur, dagurinn, dagar, dagarnir]
     pf: [dag, daginn, daga, dagana]
+- is: drykkur
+  class: nafnorð
+  kyns: karlkyns
+  de: Getränk
+  arnastofnun: leit/drykkur
+  beyging:
+    nf: [drykkur, drykkurinn, drykkir, drykkirnir]
+    pf: [drykk, drykkinn, drykki, drykkina]
 - is: fataskápur
   class: nafnorð
   kyns: karlkyns
@@ -289,6 +313,7 @@
     pf: [síma, símann, síma, símana]
 - is: skjálfti
   class: nafnorð
+  kyns: karlkyns
   de: Beben, Erschütterung
   arnastofnun: leit/skjálfti
   beyging:
@@ -390,14 +415,14 @@
   beyging:
     nf: [kjúklingur, kjúklingurinn, kjúklingar, kjúklingarnir]
     pf: [kjúkling, kjúklinginn, kjúklinga, kjúklingana]
-- is: blússa
+- is: amma
   class: nafnorð
   kyns: kvenkyns
-  de: Bluse
-  arnastofnun: beyging/15712
+  de: Oma
+  arnastofnun: leit/amma
   beyging:
-    nf: [blússa, blússan, blússur, blússurnar]
-    pf: [blússu, blússuna, blússur, blússurnar]
+    nf: [amma, amman, ömmur, ömmurnar]
+    pf: [ömmu, ömmuna, ömmur, ömmurnar]
 - is: agúrka
   class: nafnorð
   kyns: kvenkyns
@@ -414,6 +439,14 @@
   beyging:
     nf: [baun, baunin, baunir, baunirnar]
     pf: [baun, baunina, baunir, baunirnar]
+- is: blússa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Bluse
+  arnastofnun: beyging/15712
+  beyging:
+    nf: [blússa, blússan, blússur, blússurnar]
+    pf: [blússu, blússuna, blússur, blússurnar]
 - is: búð
   class: nafnorð
   kyns: kvenkyns
@@ -558,6 +591,14 @@
   beyging:
     nf: [milljón, milljónin, milljónir, milljónirnarJ]
     pf: [milljón, milljónina, milljónir, milljónirnar]
+- is: mínúta
+  class: nafnorð
+  kyns: kvenkyns
+  de: Minute
+  arnastofnun: beyging/10498
+  beyging:
+    nf: [mínúta, mínútan, mínútur, mínúturnar]
+    pf: [mínútu, mínútun, mínútur, mínúturnar]
 - is: mjólk
   class: nafnorð
   kyns: kvenkynsnafnorð
@@ -702,6 +743,14 @@
   beyging:
     nf: [stelpa, stelpan, stelpur, stelpurnar]
     pf: [stelpu, stelpuna, stelpur, stelpurnar]
+- is: stofa
+  class: nafnorð
+  kyns: kvenkyns
+  de: Zimmer
+  arnastofnun: beyging/4753
+  beyging:
+    nf: [stofa, stofan, stofur, stofurnar]
+    pf: [stofu, stofuna, stofur, stofurnar]
 - is: strönd
   class: nafnorð
   kyns: kvenkyns
@@ -818,10 +867,18 @@
   class: nafnorð
   kyns: hvorugkyns
   de: Blumenkohl
-  arnastofnun: leit/beygingarmynd/kál
+  arnastofnun: leit/kál
   beyging:
     nf: [blomkál, blomkálið, "-", "-"]
     pf: [blomkál, blomkálið, "-", "-"]
+- is: blóm
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Blume
+  arnastofnun: leit/blóm
+  beyging:
+    nf: [blóm, blómið, blóm, blómin]
+    pf: [blóm, blómið, blóm, blómin]
 - is: borð
   class: nafnorð
   kyns: hvorugkyns
@@ -870,6 +927,14 @@
   beyging:
     nf: [fjall, fjallið, fjöll, fjöllin]
     pf: [fjall, fjallið, fjöll, fjöllin]
+- is: fólk
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Leute
+  arnastofnun: beyging/1044
+  beyging:
+    nf: [fólk, fólkið, "-", "-"]
+    pf: [fólk, fólkið, "-", "-"]
 - is: glas
   class: nafnorð
   kyns: hvorugkyns
@@ -914,7 +979,7 @@
   class: nafnorð
   kyns: hvorugkyns
   de: Hotel
-  arnastofnun: leit/beygingarmynd/hótel
+  arnastofnun: leit/hótel
   beyging:
     nf: [hótel, hótelið, hótel, hótelin]
     pf: [hótel, hótelið, hótel, hótelin]
@@ -938,7 +1003,7 @@
   class: nafnorð
   kyns: hvorugkyns
   de: Kohl
-  arnastofnun: leit/beygingarmynd/kál
+  arnastofnun: leit/kál
   beyging:
     nf: [kál, kálið, "-", "-"]
     pf: [kál, kálið, "-", "-"]
@@ -1000,6 +1065,7 @@
     pf: [lunga, lungað, lungu, lungun]
 - is: lyklaborð
   class: nafnorð
+  kyns: hvorugkyns
   de: Tastatur
   arnastofnun: leit/lyklaborð
   beyging:
@@ -1061,6 +1127,14 @@
   beyging:
     nf: [súkkulaði, súkkulaðið, "-", "-"]
     pf: [súkkulaði, súkkulaðið, "-", "-"]
+- is: systkini
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Geschwister
+  arnastofnun: leit/systkini
+  beyging:
+    nf: [systkini, systkinið, systkini, systkinin]
+    pf: [systkini, systkinið, systkini, systkinin]
 - is: té
   class: nafnorð
   kyns: hvorugkyns
