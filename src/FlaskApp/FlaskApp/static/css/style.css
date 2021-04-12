@@ -74,6 +74,10 @@ body {
     margin-right:15%;
 }
 
+.light_lb1, .thead-light-lb1 {
+    background-color: #bcd7f55d;
+}
+
 table {
     text-align: center;
 }
