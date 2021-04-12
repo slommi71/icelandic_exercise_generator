@@ -1216,3 +1216,11 @@
   Framsöguháttur:
     Nútíð: [á, átt, á, eigum, eigið, eiga]
     Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
+- is: að kynna e-n
+  class: sagnorð
+  sagnorð-class: i_Klasse
+  de: vorstellen
+  arnastofnun: leit/kynna
+  Framsöguháttur:
+    Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
+    Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
