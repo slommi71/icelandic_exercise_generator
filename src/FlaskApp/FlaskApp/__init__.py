@@ -60,17 +60,34 @@ def show_solution():
     if not w:
         app.logger.error("cache empty? Got no index")
         index()
-    result_w = w['is'] + " (" + w['kyns'] + ")"
-    result_as = str(w['arnastofnun'])
-    beyging_nf = nf1=w['beyging']['nf']
-    beyging_pf = nf1=w['beyging']['pf']
-    app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_nf[0]))
-    return render_template('lausn.html', wort=result_w,
-                            arnastofnun=result_as,
-                            nf1=beyging_nf[0], nf2=beyging_nf[1],
-                            nf3=beyging_nf[2], nf4=beyging_nf[3],
-                            pf1=beyging_pf[0], pf2=beyging_pf[1],
-                            pf3=beyging_pf[2], pf4=beyging_pf[3])
+    if w['class']=='nafnorð':
+        result_w = w['is'] + " (" + w['kyns'] + ")"
+        result_as = str(w['arnastofnun'])
+        beyging_nf = nf1=w['beyging']['nf']
+        beyging_pf = nf1=w['beyging']['pf']
+        app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_nf[0]))
+        return render_template('lausn_nafnord.html', wort=result_w,
+                                arnastofnun=result_as,
+                                nf1=beyging_nf[0], nf2=beyging_nf[1],
+                                nf3=beyging_nf[2], nf4=beyging_nf[3],
+                                pf1=beyging_pf[0], pf2=beyging_pf[1],
+                                pf3=beyging_pf[2], pf4=beyging_pf[3])
+    elif w['class'=='sagnorð']:
+        result_w = w['is'] + " (" + w['sagnorð-class'] + "-Klasse)"
+        result_as = str(w['arnastofnun'])
+        beyging_fn = nf1 = w['Framsöguháttur']['Nútíð']
+        beyging_fp = nf1 = w['Framsöguháttur']['Þátíð']
+        # app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_fn[0]))
+        return render_template('lausn_sagnord.html', wort=result_w,
+                               arnastofnun=result_as,
+                               fn1=beyging_fn[0], fn2=beyging_fn[1],
+                               fn3=beyging_fn[2], fn4=beyging_fn[3],
+                               fn5=beyging_fn[4], fn6=beyging_fn[5],
+                               fp1=beyging_fp[0], fp2=beyging_fp[1],
+                               fp3=beyging_fp[2], fp4=beyging_fp[3],
+                               fp5=beyging_fp[4], fp6=beyging_fp[5])
+    else:
+        index()
 
 
 
