@@ -73,7 +73,7 @@ def show_solution():
                                 pf1=beyging_pf[0], pf2=beyging_pf[1],
                                 pf3=beyging_pf[2], pf4=beyging_pf[3])
     elif w['class'] == 'sagnorð':
-        result_w = w['is'] + " (" + w['sagnorð-class'] + "-Klasse)"
+        result_w = w['is'] + " (" + w['sagnorð-class'] + ")"
         result_as = str(w['arnastofnun'])
         beyging_fn = w['Framsöguháttur']['Nútíð']
         beyging_fp = w['Framsöguháttur']['Þátíð']

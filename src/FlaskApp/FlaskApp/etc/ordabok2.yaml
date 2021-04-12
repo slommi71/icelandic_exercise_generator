@@ -1176,11 +1176,43 @@
     nf: [Þema, Þemað, Þemu, Þemun]
     pf: [Þema, Þemað, Þemu, Þemun]
 # sagnorð
+- is: að borða e-ð
+  class: sagnorð
+  sagnorð-class: A-Klasse
+  de: essen
+  arnastofnun: leit/borða
+  Framsöguháttur:
+    Nútíð: [borða, borðar, borðar, borðum, borðið, borða]
+    Þátíð: [borðaði, borðaðir, borðaði, borðuðum, borðuðuð, borðuðu]
 - is: að heita
   class: sagnorð
-  sagnorð-class: i
+  sagnorð-class: i-Klasse
   de: heißen
   arnastofnun: beyging/434170
   Framsöguháttur:
     Nútíð: [heiti, heitir, heitir, heitum, heitið, heita]
     Þátíð: [hét, hést, hét, hétum, hétuð, hétu]
+- is: að segja e-m e-ð
+  class: sagnorð
+  sagnorð-class: i-Klasse
+  de: sagen
+  arnastofnun: leit/segja
+  Framsöguháttur:
+    Nútíð: [segi, segir, segir, segjum, segið, segja]
+    Þátíð: [sagði, sagðir, sagðir, sögðum, sögðuð, södðu]
+- is: að vinna
+  class: sagnorð
+  sagnorð-class: stark, III
+  de: arbeiten
+  arnastofnun: beyging/485738
+  Framsöguháttur:
+    Nútíð: [vinn, vinnur, vinnur, vinnum, vinnið, vinna]
+    Þátíð: [vann, vannst, vann, unnum, unnuð, unnu]
+- is: að eiga
+  class: sagnorð
+  sagnorð-class: unregelmässig
+  de: haben
+  arnastofnun: beyging/427488
+  Framsöguháttur:
+    Nútíð: [á, átt, á, eigum, eigið, eiga]
+    Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
