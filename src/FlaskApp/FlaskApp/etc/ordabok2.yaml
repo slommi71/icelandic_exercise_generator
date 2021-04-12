@@ -1175,3 +1175,12 @@
   beyging:
     nf: [Þema, Þemað, Þemu, Þemun]
     pf: [Þema, Þemað, Þemu, Þemun]
+# sagnorð
+- is: að heita
+  class: sagnorð
+  sagnorð-class: i
+  de: heißen
+  arnastofnun: beyging/434170
+  Framsöguháttur:
+    Nútíð: [heiti, heitir, heitir, heitum, heitið, heita]
+    Þátíð: [hét, hést, hét, hétum, hétuð, hétu]
