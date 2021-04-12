@@ -50,7 +50,7 @@ On [Árni Magnússon Institute for Icelandic Studies web site](https://bin.arnas
 
 ### TL;DR
 
-[try here](http://138.68.112.214/)
+[try here](https://is.hslomka.de/)
 
 This webapp shows a word from islandic dictionary in german.
 Before selecting "Sýna Lausn" try to speak this word in icelandic,
