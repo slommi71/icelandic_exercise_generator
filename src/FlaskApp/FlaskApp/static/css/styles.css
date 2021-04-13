@@ -198,6 +198,9 @@ Nav
     background-color: red;
 }
 
+.selected {
+    background-color: white;
+}
 /* -----------------------
 Single styles
 ------------------------*/
