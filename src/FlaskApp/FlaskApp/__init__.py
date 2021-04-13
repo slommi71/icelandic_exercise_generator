@@ -103,6 +103,17 @@ def show_solution():
         index()
 
 
+@app.route("/xlsx", methods=['GET', 'POST'])
+# @cache.cached(timeout=3600)
+def grammar():
+    return render_template('xlxs_download.html')
+
+
+@app.route("/grammar", methods=['GET', 'POST'])
+# @cache.cached(timeout=3600)
+def grammar():
+    return render_template('grammar.html')
+
 
 # def get_unique_session_id():
 #     client_ip = request.environ.get('REMOTE_ADDR')
