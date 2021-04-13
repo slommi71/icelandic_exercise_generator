@@ -1,6 +1,6 @@
 # Project content
 
-This projects maintains 2 app to help learing icelandic.
+This projects maintains two applications to help learing icelandic.
 
 1. [XLSX Generator](#generator---exercise-excel-sheets-to-train-icelandic-nouns-and-grammar) for list of words
 1. [WebApp](#webapp) to train words.  
