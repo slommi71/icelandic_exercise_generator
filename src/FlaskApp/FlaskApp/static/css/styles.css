@@ -339,9 +339,16 @@ Wide styles
     margin-right: 15%;
 }
 
+.VO_beygingarmynd {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .light_lb1,
 .thead-light-lb1 {
     background-color: #bcd7f55d;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 table {
