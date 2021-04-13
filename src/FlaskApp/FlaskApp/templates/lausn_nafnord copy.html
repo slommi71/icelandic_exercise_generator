@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Læra islensku</title>
+  </head>
+  <body>
+    <h1>Velkomin til 'Við lærum islensku!'</h1>
+    <h2>Lausn nafnorð</h2>
+    <div class="wort">{{ wort }}</div>
+    <br>
+    <div class="arnastofnun">
+
+      <h2>Beygingarmynd</h2>
+
+      <table class="tcenter" cellpadding="6">
+        <thead class="light_lb1">
+            <tr>
+              <th></th>
+              <th colspan="2" align="center" class="thead-light-lb1">Eintala</th>
+              <th></th>
+              <th colspan="2" align="center"class="light_lb1">Fleirtala</th>
+            </tr>
+            <tr>
+            </tr>
+            <tr class="thead-light">
+              <td width="10%"></td>
+              <td width="21%" align="center"><em>án&nbsp;greinis</em></td>
+              <td width="21%" align="center">með&nbsp;greini</td>
+              <td width="6%></td>
+              <td width="21%" align="center">án&nbsp;greinis</td>
+              <td width="21%" align="center">með&nbsp;greini</td>
+            </tr><tr>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td class="thead-light-lb1">Nf.</td>
+            <td><span class="VO_beygingarmynd">{{ nf1 }}</span></td>
+            <td><span class="VO_beygingarmynd">{{ nf2 }}</span></td>
+            <td></td>
+            <td><span class="light_lb1">{{ nf3 }}</span></td>
+            <td><span class="light_lb1">{{ nf4 }}</span></td>
+          </tr>
+          <tr>
+            <td class="thead-light-lb1">Þf.</td>
+            <td><span class="VO_beygingarmynd">{{ pf1 }}</span></td>
+            <td><span class="VO_beygingarmynd">{{ pf2 }}</span></td>
+            <td></td>
+            <td><span class="light_lb1">{{ pf3 }}</span></td>
+            <td><span class="light_lb1">{{ pf4 }}</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <br><br>
+    <div class="link">Wort bei <a href="https://bin.arnastofnun.is/{{ arnastofnun }}"> arnastofnun.is</a> ansehen.</div>
+    <br>
+    <form method='POST' action='/'>
+        <p><input value='næst' type='SUBMIT'></p>
+    </form>
+    <br><br>
+    <hr class="bluelarge">
+
+    <table class="link" style="width:90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="width: 30%; text-align: left;">
+            <a href=http://www.hslomka.de/>hslomka.de</a><br>
+            <a href="https://github.com/slommi71/icelandic_exercise_generator#webapp">Source Code</a>
+          </td>
+          <td style="width: 30%; text-align: center">
+            <a href=http://www.slomka.biz>slomka.biz</a>
+          </td>
+          <td style="width: 70%; text-align: right;">
+            <a href="http://www.slomka.biz/de/impressum.html" name="Impressum"><span class="small2">Impressum</span></a>
+            <a href="http://www.slomka.biz/de/disclaimer.html" name="Disclaimer"><span class="small2">Disclaimer</span></a>
+            <a href="http://www.slomka.biz/de/privacy.html" name="Datenschutz"><span class="small2">Datenschutz</span></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+<html>
