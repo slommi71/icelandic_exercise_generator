@@ -60,32 +60,51 @@
 		<div class="nav-bar">
 			<div class="container">
 				<ul class="nav">
-					<li class="selected">þjálfari/Vokabeltrainer</li>
-					<li><a href="#">Æfingar/Übungsblätter</a></li>
-					<li><a href="#">Málfræði/Grammatik</a></li>
+					<li class="selected">Æfing / Vokabeltrainer</li>
+					<li><a href="#">XLSX / Übungsblätter</a></li>
+					<li><a href="#">Tipps/Nützliches</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="content">
 			<div class="container">
 				<div class="main">
-					<h1>Orð þjálfari - Æfingar / Vokabeltrainer - Übungen</h1>
-					<hr><br><br>
-					Hvernig segir maður <br>
-					<div class="wort">{{ wort }}</div>
-					á íslensku?
-					<br><br><br>
-					<form method='POST' action='/lausn'>
-						<p><input value='Sýna lausn' type='SUBMIT'></p>
-					</form>
-					<br><br><br><br><br>
-					<!-- <hr class="bluelarge"> -->
+					<h1>XLSX / Übungsblätter</h1>
+
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Inhalt</th>
+								<th>Download XSLX</th>
+								<th>Download PDF</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Delightful Icelandic Words and Phrases</td>
+								<td><a href="assets/grammar/Delightful_Icelandic_Words_and_Phrases.docx">Delightful_Icelandic_Words_and_Phrases.docx</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Isländische Grammatik</td>
+								<td><a href="assets/grammar/IsländischeGrammatik.docx">IsländischeGrammatik.docx</a></td>
+								<td><a href="assets/grammar/IsländischeGrammatik.pdf">IsländischeGrammatik.docx</a></td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Substantive Mehrzahl</td>
+								<td><a href="assets/grammar/SubstantiveMehrzahl.docx">SubstantiveMehrzahl.docx</a></td>
+								<td><a href="assets/grammar/SubstantiveMehrzahl.pdf">SubstantiveMehrzahl.docx</a></td>
+							</tr>						</tbody>
+					</table>
 
 
-					<!-- <h3>Buttons</h3>
-					<p>You can apply the <code>btn</code> class to any element that requires a button style.</p>
-					<p><a href="#" class="btn">Submit</a></p>
-					<hr> -->
+					<p></p>
+					<p><a href="https://is.hslomka.de/" class="btn">Zum Vokabeltrainer</a></p>
+					<hr>
 
 				</div>
 				<div class="aside">
