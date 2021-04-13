@@ -37,6 +37,19 @@ app.config.from_mapping(config)
 # cache = Cache(app)
 
 
+@app.route("/test/index", methods=['GET', 'POST'])
+# @cache.cached(timeout=3600)
+def index():
+    idx, w = get_word(get_ordabok())
+    # cache.set("wordidx"+get_unique_session_id(), idx)
+    # app.logger.debug("caching wordidx"+get_unique_session_id())
+    session['word_index'] = idx
+    app.logger.debug("session variable word_index set to " + str(idx))
+    #for env_var in request.environ:
+    #  app.logger.debug(env_var + ": " )
+    return render_template('index2.html', wort=w['de'])
+
+
 @app.route("/", methods=['GET', 'POST'])
 # @cache.cached(timeout=3600)
 def index():
