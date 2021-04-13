@@ -47,7 +47,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           #rm: true
-          source: "assets/*.ico, assets/*.png assets/excercises/*"
+          source: "assets/*.ico, assets/*.png, assets/excercises/*, assets/grammar/*"
           target: "${{ secrets.REMOTE_DIR }}/FlaskApp/FlaskApp"
 
       - name: Restart apache2 service
