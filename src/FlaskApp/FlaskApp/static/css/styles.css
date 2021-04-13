@@ -136,7 +136,7 @@ Layout styles
 
 .main,
 .aside {
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
 }
 
 .aside {
@@ -147,7 +147,7 @@ Layout styles
     color: #fff;
     background: rgb(183, 194, 216);
     padding: 1em 1.25em;
-    font-size: 0.4em;
+    font-size: 0.5em;
 }
 
 /* -----------------------
