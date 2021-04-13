@@ -1,11 +1,15 @@
 karlkyns:
+  - ávöxtur
+  - afi
   - bar
   - bíll
   - bjór
   - bolli
   - bolur
+  - bær
   - dalur
   - dagur
+  - drykkur
   - fataskápur
   - gluggi
   - gestur
@@ -34,6 +38,7 @@ karlkyns:
   - sófi
   - reikningur
   - sími
+  - skjálfti
   - skápur
   - spegill
   - steinn
@@ -48,9 +53,10 @@ karlkyns:
   - kjúklingur
 
 kvenkyns:
-  - blússa
+  - amma
   - agúrka
   - baun
+  - blússa
   - búð
   - bók
   - borg
@@ -69,6 +75,9 @@ kvenkyns:
   - kvittun
   - mamma
   - milljón
+  - mínúta
+  - mjólk
+  - mynd
   - náttúra
   - nótt
   - núðla
@@ -85,6 +94,7 @@ kvenkyns:
   - skeið
   - skyrta
   - stelpa
+  - stofa
   - strönd
   - sturta
   - sæng
@@ -102,12 +112,14 @@ hvorugkyns:
   - bíó
   - blað
   - blomkál
+  - blóm
   - borð
   - brokkolí
   - eldfjall
   - epli
   - eyra
   - fjall
+  - fólk
   - glas
   - gaman
   - gos
@@ -124,12 +136,15 @@ hvorugkyns:
   - kvöld
   - lasanja
   - lunga
+  - lyklaborð
   - nýra
   - pasta
   - rúm
+  - salat
   - sjónvarp
   - skema
   - súkkulaði
+  - systkini
   - té
   - útvarp
   - vatn

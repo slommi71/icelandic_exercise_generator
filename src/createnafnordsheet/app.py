@@ -18,12 +18,18 @@ if __name__ == '__main__':
 
     workbook = xlsxwriter.Workbook(xslxfile)
     # formatting cells
-    header_format = workbook.add_format({'bold': True,
+    header_format1 = workbook.add_format({'bold': True,
                                          'align': 'center',
                                          'valign': 'vcenter',
                                          'fg_color': '#DCE6F1',
                                          'border': 1,
                                          'font_size': 15})
+    header_format1a = workbook.add_format({'bold': True,
+                                         'align': 'center',
+                                         'valign': 'vcenter',
+                                         'fg_color': '#DCE6F1',
+                                         'border': 1,
+                                         'font_size': 13})
     header_format2 = workbook.add_format({'bold': True,
                                          'align': 'center',
                                          'valign': 'vcenter',
@@ -32,6 +38,14 @@ if __name__ == '__main__':
                                          'border': 1,
                                          'border_color': '#88A9D2',
                                          'font_size': 15})
+    header_format2a = workbook.add_format({'bold': True,
+                                         'align': 'center',
+                                         'valign': 'vcenter',
+                                         'font_color': '#0070C0',
+                                         'fg_color': '#DCE6F1',
+                                         'border': 1,
+                                         'border_color': '#88A9D2',
+                                         'font_size': 13})
 
     worksheet1 = workbook.add_worksheet('Nominativ Nefnifall')
     worksheet2 = workbook.add_worksheet('Akkusativ Þolfall')
@@ -55,16 +69,23 @@ if __name__ == '__main__':
 
         # Write some data headers.
         ws.set_row(0, 24)
-        ws.write('A1', 'Nafnorð', header_format)
-        ws.write('B1', 'kyn', header_format)
-        ws.write('C1', 'eintala með greini', header_format)
-        ws.write('D1', 'fleirtala', header_format2)
-        ws.write('E1', 'fleirtala með greini', header_format2)
+        ws.write('A1', 'Nafnorð', header_format1)
+        ws.write('B1', 'kyn', header_format1)
+        if 'Þolfall' in ws.footer:
+            ws.write('C1', 'et. án greinis', header_format1a)
+            ws.write('D1', 'et. með greini', header_format1a)
+            ws.write('E1', 'ft. án greinis', header_format2a)
+            ws.write('F1', 'ft. með greini', header_format2a)
+            ws.set_column('C:F', 18)
+        else:
+            ws.write('C1', 'eintala með greini', header_format1)
+            ws.write('D1', 'fleirtala', header_format2)
+            ws.write('E1', 'fleirtala með greini', header_format2)
+            ws.set_column('C:E', 25)
         ws.freeze_panes(1, 0)
 
-        ws.set_column('A:A', 15)
-        ws.set_column('B:B', 5)
-        ws.set_column('C:E', 25)
+        ws.set_column('A:A', 16)
+        ws.set_column('B:B', 4)
 
         # Start from the first cell below the headers.
         row = 1

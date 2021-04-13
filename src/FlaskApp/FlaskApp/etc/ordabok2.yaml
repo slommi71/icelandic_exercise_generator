@@ -7,14 +7,6 @@
   beyging:
     nf: [ávöxtur, ávöxturinn, ávextir, ávextirnir ]
     pf: [ávöxt, ávöxtinn, ávexti/ávöxtu, ávextina]
-- is: afn
-  class: nafnorð
-  kyns: kvenkyns
-  de: Opa
-  arnastofnun: beyging/5628
-  beyging:
-    nf: [ávöxtur, ávöxturinn, ávextir, ávextirnir ]
-    pf: [ávöxt, ávöxtinn, ávexti/ávöxtu, ávextina]
 - is: afi
   class: nafnorð
   kyns: kvenkyns
@@ -1135,14 +1127,14 @@
   beyging:
     nf: [systkini, systkinið, systkini, systkinin]
     pf: [systkini, systkinið, systkini, systkinin]
-- is: té
+- is: te
   class: nafnorð
   kyns: hvorugkyns
   de: Tee
-  arnastofnun: leit/té
+  arnastofnun: leit/te
   beyging:
-    nf: [té, téið, té, téin]
-    pf: [té, téið, té, téin]
+    nf: [te, teið, "-", "-"]
+    pf: [te, teið, "-", "-"]
 - is: útvarp
   class: nafnorð
   kyns: hvorugkyns
