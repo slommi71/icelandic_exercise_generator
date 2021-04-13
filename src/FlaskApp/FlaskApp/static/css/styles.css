@@ -120,7 +120,7 @@ Layout styles
 
 .header {
     color: #fff;
-    background: #999;
+    background: rgb(139, 179, 252);
     padding: 1em 1.25em;
 }
 
@@ -129,7 +129,7 @@ Layout styles
 }
 
 .nav-bar {
-    background: #000;
+    background: rgb(45, 69, 114);
     padding: 0;
 }
 
@@ -188,7 +188,7 @@ Nav
 
 .nav a:hover {
     color: white;
-    background-color: green;
+    background-color: royalblue;
 }
 
 .nav a:active {
@@ -224,7 +224,7 @@ Single styles
 
 .btn:hover {
     color: #fff !important;
-    background-color: green;
+    background-color: royalblue;
 }
 
 .btn:focus {
