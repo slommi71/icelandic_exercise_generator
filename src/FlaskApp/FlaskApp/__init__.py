@@ -37,7 +37,7 @@ app.config.from_mapping(config)
 # cache = Cache(app)
 
 
-@app.route("/test/index", methods=['GET', 'POST'])
+@app.route("/index_test", methods=['GET', 'POST'])
 # @cache.cached(timeout=3600)
 def index2():
     idx, w = get_word(get_ordabok())
