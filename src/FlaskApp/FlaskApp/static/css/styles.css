@@ -24,32 +24,32 @@ h6 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* 36px */
 h2 {
-    font-size: 1.75em;
+    font-size: 1.375em;
 }
 
 /* 28px */
 h3 {
-    font-size: 1.375em;
+    font-size: 1.125em;
 }
 
 /* 22px */
 h4 {
-    font-size: 1.125em;
+    font-size: 1.0em;
 }
 
 /* 18px */
 h5 {
-    font-size: 1em;
+    font-size: 0.875em;
 }
 
 /* 16px */
 h6 {
-    font-size: .875em;
+    font-size: .75em;
 }
 
 /* 14px */
@@ -204,6 +204,7 @@ Nav
 
 .selected {
     background-color: white;
+    color: #2a7edd;
 }
 /* -----------------------
 Single styles
