@@ -8,9 +8,7 @@ body {
     text-align: center;
     color: rgb(65, 114, 204);
     background-color: #eee;
-    /* font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif; */
-    font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 
 h1,
@@ -138,6 +136,8 @@ Layout styles
     overflow: hidden;
     padding: 1em 1.25em;
     background-color: #fff;
+    font-size: 1.35em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main,
