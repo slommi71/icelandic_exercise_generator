@@ -143,6 +143,9 @@ Layout styles
 .main,
 .aside {
     margin-bottom: 1em;
+}
+
+.aside {
     font-size: small;
 }
 
