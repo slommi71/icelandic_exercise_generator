@@ -95,11 +95,11 @@ a:link {
 }
 
 a:visited {
-    color: purple;
+    color: rgb(6, 35, 88);
 }
 
 a:focus {
-    color: black;
+    color: rgb(231, 239, 255);
 }
 
 a:hover {
