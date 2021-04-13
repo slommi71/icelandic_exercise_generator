@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Two-column full width responsive layout</title>
+		<title>Læra islensku</title>
         <meta http-equiv=Content-Type content=text/html;charset=ISO-8859-1>
         <meta name=publisher content="Holger Slomka">
         <meta name=copyright content="H. Slomka">
@@ -19,12 +19,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- icons -->
-		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+		<link rel="shortcut icon" href="assets/favicon.ico">
 
 		<!-- Override CSS file - add your own CSS rules -->
 		<link rel="stylesheet" href="static/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+		<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+			"palette": {
+			"popup": {
+			"background": "#3c404d",
+			"text": "#d6d6d6"
+			},
+			"button": {
+			"background": "#93c54b",
+			"text": "#3e3f3a"
+			}
+			},
+			"theme": "edgeless",
+			"position": "bottom-right",
+			"content": {
+			"message": "Mit der Nutzung der Seiten und Services erkl&auml;ren Sie sich damit einverstanden, dass ich Cookies verwende.",
+			"dismiss": "Verstanden !",
+			"link": "Datenschutzerkl&auml;rung",
+			"href": "https://slomka.biz/de/privacy.html"
+			}
+		})});
+		</script>
 	</head>
+
 	<body>
 		<div class="header">
 			<div class="container">
