@@ -302,3 +302,81 @@ Wide styles
         border-bottom: 0;
     }
 }
+
+.wort {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Papyrus;
+    color: rgb(16, 49, 110);
+    margin-bottom: 5px;
+}
+
+.link {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.arnastofnun {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tcenter {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.light_lb1,
+.thead-light-lb1 {
+    background-color: #bcd7f55d;
+}
+
+table {
+    text-align: center;
+}
+
+.thead-light {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 2px solid #2a7edd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color: whitesmoke;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #2a7edd;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+hr.blue {
+    border-top: 1px dotted #cee5ff;
+}
+
+/* Large rounded green border */
+hr.bluelarge {
+    border: 4px solid #2a7edd;
+    border-radius: 2px;
+}
