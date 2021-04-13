@@ -136,11 +136,11 @@ Layout styles
 
 .main,
 .aside {
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
 }
 
 .aside {
-    font-size: small;
+    font-size: 0.75em;
 }
 
 .footer {
