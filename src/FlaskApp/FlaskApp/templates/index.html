@@ -1,83 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <META http-equiv=Content-Type content=text/html;charset=ISO-8859-1>
-    <META name=publisher content="Holger Slomka">
-    <META name=copyright content="H. Slomka">
-    <META name=page-topic content=learnign islandic>
-    <META name=audience content=All>
-    <META name=expires content=NEVER>
-    <META name=page-type content="Private Homepage">
-    <META name=robots content=INDEX,FOLLOW>
-    <META name=Author content="Holger Slomka">
-    <META name=Content-Language content=IS>
-    <META name=revisit-after content="10 days">
-    <META name=description content="learning icelandic" >
-    <meta charset="UTF-8">
-    <title>Læra islensku</title>
+	<head>
+		<meta charset="utf-8">
+		<title>Læra islensku</title>
+        <meta http-equiv=Content-Type content=text/html;charset=ISO-8859-1>
+        <meta name=publisher content="Holger Slomka">
+        <meta name=copyright content="H. Slomka">
+        <meta name=page-topic content=learnign islandic>
+        <meta name=audience content=All>
+        <meta name=expires content=NEVER>
+        <meta name=page-type content="Private Homepage">
+        <meta name="robots" content="index, follow">
+        <meta name=Author content="Holger Slomka">
+        <meta name=Content-Language content=IS>
+        <meta name=revisit-after content="10 days">
+        <meta name=description content="learning icelandic" >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- hslomka.de stylesheet -->
-    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+		<link rel="shortcut icon" href="assets/favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-    <script>
-      window.addEventListener("load", function(){
-      window.cookieconsent.initialise({
-        "palette": {
-        "popup": {
-          "background": "#3c404d",
-          "text": "#d6d6d6"
-        },
-        "button": {
-          "background": "#93c54b",
-          "text": "#3e3f3a"
-        }
-        },
-        "theme": "edgeless",
-        "position": "bottom-right",
-        "content": {
-        "message": "Mit der Nutzung der Seiten und Services erkl&auml;ren Sie sich damit einverstanden, dass ich Cookies verwende.",
-        "dismiss": "Verstanden !",
-        "link": "Datenschutzerkl&auml;rung",
-        "href": "https://slomka.biz/de/privacy.html"
-        }
-      })});
-    </script>
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="static/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+		<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+			"palette": {
+			"popup": {
+			"background": "#3c404d",
+			"text": "#d6d6d6"
+			},
+			"button": {
+			"background": "#93c54b",
+			"text": "#3e3f3a"
+			}
+			},
+			"theme": "edgeless",
+			"position": "bottom-right",
+			"content": {
+			"message": "Mit der Nutzung der Seiten und Services erkl&auml;ren Sie sich damit einverstanden, dass ich Cookies verwende.",
+			"dismiss": "Verstanden !",
+			"link": "Datenschutzerkl&auml;rung",
+			"href": "https://slomka.biz/de/privacy.html"
+			}
+		})});
+		</script>
+	</head>
 
-  </head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<h1 class="header-heading">Velkomin til 'Við lærum islensku!'</h1>
+			</div>
+		</div>
+		<div class="nav-bar">
+			<div class="container">
+				<ul class="nav">
+					<li class="selected">þjálfari/Vokabeltrainer</li>
+					<li><a href="/xlsx">Æfingar/Übungsblätter</a></li>
+					<li><a href="/grammar">Málfræði/Grammatik</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="main">
+					<h1>Orð þjálfari - Æfingar / Vokabeltrainer - Übungen</h1>
+					<hr><br>
+					Hvernig segir maður <br>
+					<div class="wort">{{ wort }}</div>
+					á íslensku?
+					<br><br><br>
+					<form method='POST' action='/lausn'>
+						<p><input value='Sýna lausn' type='SUBMIT'></p>
+					</form>
+					<br><br><br><br><br>
+					<!-- <hr class="bluelarge"> -->
 
-  <body>
-    <h1>Velkomin til 'Við lærum islensku!'</h1>
-    <p/>
-    Hvernig segir maður <br>
-    <div class="wort">{{ wort }}</div>
-    á íslensku?
-    <br><br><br>
-    <form method='POST' action='/lausn'>
-        <p><input value='Sýna lausn' type='SUBMIT'></p>
-    </form>
-    <br><br><br><br><br>
-    <hr class="bluelarge">
 
-    <table class="link" style="width:90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
-      <tbody>
-        <tr>
-          <td style="width: 30%; text-align: left;">
-            <a href=http://www.hslomka.de/>hslomka.de</a>
-            <a href="https://github.com/slommi71/icelandic_exercise_generator#webapp">Source Code</a>
-          </td>
-          <td style="width: 30%; text-align: center">
-            <a href=http://www.slomka.biz>slomka.biz</a>
-          </td>
-          <td style="width: 70%; text-align: right;">
-            <a href="http://www.slomka.biz/de/impressum.html" name="Impressum"><span class="small2">Impressum</span></a>
-            <a href="http://www.slomka.biz/de/disclaimer.html" name="Disclaimer"><span class="small2">Disclaimer</span></a>
-            <a href="http://www.slomka.biz/de/privacy.html" name="Datenschutz"><span class="small2">Datenschutz</span></a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+					<!-- <h3>Buttons</h3>
+					<p>You can apply the <code>btn</code> class to any element that requires a button style.</p>
+					<p><a href="#" class="btn">Submit</a></p>
+					<hr> -->
 
-  </body>
-<html>
+				</div>
+				<div class="aside">
+					<h3>Tipps</h3>
+					<p>nefnifall Nf. {hv} - Nominativ<br>
+					þolfall Þf. {hv} - Akkusativ<br>
+					karlkyn - maskulin<br>
+					kvenkyn - feminin<br>
+					hvorugkyns - neutrum<br>
+					eintala - Einzahl<br>
+					fleirtala - Mehrzahl<br>
+					eitthvað {pron} &lt;e-ð&gt; - etwas<br>
+					einhverjum {pron} &lt;e-m&gt; - jemandem<br>
+					einhvern {pron} &lt;e-n%gt; - jemanden<br>
+					einhver {pron} &lt;e-r%gt; - jemand<br>
+					einhvers {pron} &lt;e-s%gt; - jemandes</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<table style="width:90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+				<tbody>
+					<tr>
+					<td style="width: 30%; text-align: left;">
+						<a href=http://www.hslomka.de/>hslomka.de</a>
+						<a href="https://github.com/slommi71/icelandic_exercise_generator#webapp">Source Code (Github)</a>
+					</td>
+					<td style="width: 30%; text-align: center">
+						<a href=http://www.slomka.biz>slomka.biz</a>
+					</td>
+					<td style="width: 70%; text-align: right;">
+						<a href="http://www.slomka.biz/de/impressum.html" name="Impressum"><span class="small2">Impressum</span></a>
+						<a href="http://www.slomka.biz/de/disclaimer.html" name="Disclaimer"><span class="small2">Disclaimer</span></a>
+						<a href="http://www.slomka.biz/de/privacy.html" name="Datenschutz"><span class="small2">Datenschutz</span></a>
+					</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
