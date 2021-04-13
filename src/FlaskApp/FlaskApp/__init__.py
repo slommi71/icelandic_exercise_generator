@@ -17,28 +17,17 @@ logging.basicConfig(stream=sys.stderr)
 
 config = {
     "DEBUG": True,          # some Flask specific configs
-    # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
-    # "CACHE_TYPE": "FileSystemCache",  # Flask-Caching related configs
-    # "CACHE_DIR": "/var/tmp",
-    # "CACHE_DEFAULT_TIMEOUT": 7200,
     "SECRET_KEY": "fsdfsd_adasd"
 }
 
 async_mode = None
 app = Flask(__name__)
-# socket_ = SocketIO(app, async_mode=async_mode)
-
-# Instantiate the cache
-# cache = Cache()
-# cache.init_app(app=app, config={"CACHE_TYPE": "SimpleCache"})
 
 # tell Flask to use the above defined config
 app.config.from_mapping(config)
-# cache = Cache(app)
 
 
 @app.route("/index_test", methods=['GET', 'POST'])
-# @cache.cached(timeout=3600)
 def index2():
     idx, w = get_word(get_ordabok())
     # cache.set("wordidx"+get_unique_session_id(), idx)
@@ -51,7 +40,6 @@ def index2():
 
 
 @app.route("/", methods=['GET', 'POST'])
-# @cache.cached(timeout=3600)
 def index():
     idx, w = get_word(get_ordabok())
     # cache.set("wordidx"+get_unique_session_id(), idx)
@@ -104,13 +92,11 @@ def show_solution():
 
 
 @app.route("/xlsx", methods=['GET', 'POST'])
-# @cache.cached(timeout=3600)
 def xlsx():
     return render_template('xlxs_download.html')
 
 
 @app.route("/grammar", methods=['GET', 'POST'])
-# @cache.cached(timeout=3600)
 def grammar():
     return render_template('grammar.html')
 
@@ -136,4 +122,3 @@ def get_word_by_index(words, idx):
 
 if __name__ == "__main__":
     app.run()
-    # socket_.run(app, debug=True)
