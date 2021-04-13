@@ -105,7 +105,7 @@ def show_solution():
 
 @app.route("/xlsx", methods=['GET', 'POST'])
 # @cache.cached(timeout=3600)
-def grammar():
+def xlsx():
     return render_template('xlxs_download.html')
 
 
