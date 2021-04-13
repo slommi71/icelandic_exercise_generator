@@ -5,6 +5,7 @@ Base styles
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
     color: rgb(65, 114, 204);
     background-color: #eee;
     /* font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif; */
@@ -146,8 +147,9 @@ Layout styles
 
 .footer {
     color: #fff;
-    background: #000;
+    background: rgb(139, 179, 252);
     padding: 1em 1.25em;
+    font-size: small;
 }
 
 /* -----------------------
