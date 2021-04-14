@@ -36,7 +36,11 @@ def index2():
     app.logger.debug("session variable word_index set to " + str(idx))
     #for env_var in request.environ:
     #  app.logger.debug(env_var + ": " )
-    return render_template('index2.html', wort=w['de'])
+    if w['class'] == 'sagnorð':
+        tipp = w['sagnorð-class']
+    else:
+        tipp = w['kyns']
+    return render_template('index2.html', wort=w['de'], tipp=tipp)
 
 
 @app.route("/", methods=['GET', 'POST'])
