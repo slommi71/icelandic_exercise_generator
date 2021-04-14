@@ -50,9 +50,11 @@ def index():
     # app.logger.debug("caching wordidx"+get_unique_session_id())
     session['word_index']=idx
     app.logger.debug("session variable word_index set to " + str(idx))
-    #for env_var in request.environ:
-    #  app.logger.debug(env_var + ": " )
-    return render_template('index.html', wort=w['de'])
+    if w['class'] == 'sagnorð':
+        tipp = w['sagnorð-class']
+    else:
+        tipp = w['kyns']
+    return render_template('index.html', wort=w['de'], tipp=tipp)
 
 
 @app.route('/lausn', methods=['POST'])
