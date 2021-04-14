@@ -23,15 +23,15 @@ h6 {
 }
 
 h1 {
-    font-size: 1.5em;
-}
-
-h2 {
     font-size: 1.375em;
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
 h3 {
-    font-size: 1.125em;
+    font-size: 1.1em;
 }
 
 h4 {
@@ -312,8 +312,17 @@ Wide styles
 
 .wort {
     text-align: center;
-    font-size: 50px;
+    font-size: 46px;
     font-weight: bold;
+    font-family: Papyrus;
+    color: rgb(16, 49, 110);
+    margin-bottom: 5px;
+}
+
+.tipp {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
     font-family: Papyrus;
     color: rgb(16, 49, 110);
     margin-bottom: 5px;
