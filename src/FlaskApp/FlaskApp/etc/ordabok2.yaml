@@ -87,6 +87,14 @@
   beyging:
     nf: [drykkur, drykkurinn, drykkir, drykkirnir]
     pf: [drykk, drykkinn, drykki, drykkina]
+- is: eldur
+  class: nafnorð
+  kyns: karlkyns
+  de: Feuer
+  arnastofnun: beyging/6087
+  beyging:
+    nf: [eldur, eldurinn, eldar, eldarnir]
+    pf: [eld, eldinn, elda, eldana]
 - is: fataskápur
   class: nafnorð
   kyns: karlkyns
@@ -1184,6 +1192,22 @@
   Framsöguháttur:
     Nútíð: [borða, borðar, borðar, borðum, borðið, borða]
     Þátíð: [borðaði, borðaðir, borðaði, borðuðum, borðuðuð, borðuðu]
+- is: að fara
+  class: sagnorð
+  sagnorð-class: A-Klasse
+  de: gehen
+  arnastofnun: leit/fara
+  Framsöguháttur:
+    Nútíð: [fer, ferð, fer, förum, farið, fara]
+    Þátíð: [fór, fórst, fór, fórum, fóruð, fóru]
+- is: að fá e-ð
+  class: sagnorð
+  sagnorð-class: A-Klasse
+  de: bekommen (etwas)
+  arnastofnun: beyging/464090
+  Framsöguháttur:
+    Nútíð: [fæ, færð, fæf, fáum, fáið, fá]
+    Þátíð: [fékk, fékkst, fékk, fengum, fenguð, fengu]
 - is: að heita
   class: sagnorð
   sagnorð-class: i-Klasse
@@ -1224,3 +1248,19 @@
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
     Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
+- is: að vera
+  class: sagnorð
+  sagnorð-class: unregelmässig
+  de: sein
+  arnastofnun: beyging/469289
+  Framsöguháttur:
+    Nútíð: [er, ert, er, erum, erið, eru]
+    Þátíð: [var, varst, var, vorum, voruð, voru]
+- is: að vilja
+  class: sagnorð
+  sagnorð-class: unregelmässig
+  de: wollen
+  arnastofnun: leit/vilja
+  Framsöguháttur:
+    Nútíð: [vil, vilt, vill, viljum, viljið, vilja]
+    Þátíð: [vildi, vildir, vildi, vildum, vilduð, vildu]
