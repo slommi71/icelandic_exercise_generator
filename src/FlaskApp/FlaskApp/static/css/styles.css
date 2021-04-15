@@ -197,8 +197,9 @@ Nav
 }
 
 .selected {
-    background-color: white;
-    color: #2a7edd;
+    background-color: royalblue;
+    padding: 4px 4px 4px;
+    color: #ffffff;
 }
 /* -----------------------
 Single styles
