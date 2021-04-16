@@ -26,7 +26,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           #rm: true
-          source: "setup/sudoers"
+          source: "setup/etc/sudoers"
           target: "/etc"
           strip_components: 1
 
