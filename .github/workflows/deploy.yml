@@ -25,10 +25,9 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          #rm: true
           source: "setup/etc/sudoers"
-          target: "/etc"
-          strip_components: 1
+          target: "/etc/"
+          strip_components: 2
 
   deploy:
     # The type of runner that the job will run on
