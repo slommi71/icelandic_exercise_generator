@@ -503,6 +503,14 @@
   beyging:
     nf: [flaska, flaskan, flöskur, flöskur]
     pf: [flösku, flöskun, flöskur, flöskur]
+- is: gönguferð
+  class: nafnorð
+  kyns: kvenkyns
+  de: Wanderung, Spaziergang
+  arnastofnun: leit/gulrót
+  beyging:
+    nf: [gönguferð, gönguferðin, gönguferðir, gönguferðirnar]
+    pf: [gönguferð, gönguferðina, gönguferðir, gönguferðirnar]
 - is: gulrót
   class: nafnorð
   kyns: kvenkyns
@@ -815,6 +823,14 @@
   beyging:
     nf: [afmæli, afmælið, afmæli, afmælin]
     pf: [afmæli, afmælið, afmæli, afmælin]
+- is: afrit
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Kopie, Duplikat
+  arnastofnun: leit/afrit
+  beyging:
+    nf: [afrit, afritið, afrit, afritin]
+    pf: [afrit, afritið, afrit, afritin]
 - is: auga
   class: nafnorð
   kyns: hvorugkyns
@@ -1202,15 +1218,23 @@
     Þátíð: [borðaði, borðaðir, borðaði, borðuðum, borðuðuð, borðuðu]
 - is: að eiga
   class: sagnorð
-  sagnorð-class: unregelmässig
+  sagnorð-class: unregelmässig, Modalverb
   de: haben
   arnastofnun: beyging/427488
   Framsöguháttur:
     Nútíð: [á, átt, á, eigum, eigið, eiga]
     Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
-- is: að fara
+- is: að elska e-n/e-ð
   class: sagnorð
   sagnorð-class: A-Klasse
+  de: lieben
+  arnastofnun: beyging/419928
+  Framsöguháttur:
+    Nútíð: [elska, elskar, elskar, elskum, elskið, elska]
+    Þátíð: [elskaði, elskaðir, elskaði, elskuðum, elskuðuð, elskuðu]
+- is: að fara
+  class: sagnorð
+  sagnorð-class: stark
   de: gehen
   arnastofnun: leit/fara
   Framsöguháttur:
@@ -1218,7 +1242,7 @@
     Þátíð: [fór, fórst, fór, fórum, fóruð, fóru]
 - is: að fá e-ð
   class: sagnorð
-  sagnorð-class: A-Klasse
+  sagnorð-class: stark
   de: bekommen (etwas)
   arnastofnun: beyging/464090
   Framsöguháttur:
@@ -1260,6 +1284,14 @@
   class: sagnorð
   sagnorð-class: i_Klasse
   de: vorstellen
+  arnastofnun: beyging/427491
+  Framsöguháttur:
+    Nútíð: [kann, kannt, kann, knnnum, kunnið, kunna]
+    Þátíð: [kunni, kunnir, kunni, kunnum, kunnuð, kunnu]
+- is: að kunna
+  class: sagnorð
+  sagnorð-class: unregelmässig, Modalverb
+  de: können
   arnastofnun: leit/kynna
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
@@ -1272,6 +1304,14 @@
   Framsöguháttur:
     Nútíð: [læri, lærir, lærir, lærum, lærið, læra]
     Þátíð: [lærði, lærðir, lærði, lærðum, lærðuð, lærðu]
+- is: að mega
+  class: sagnorð
+  sagnorð-class: unregelmässig, Modalverb
+  de: dürfen
+  arnastofnun: leit/beygingarmynd/mega
+  Framsöguháttur:
+    Nútíð: [má, mátt, má, megum, megið, mega]
+    Þátíð: [mátti, máttir, mátti, máttum, máttuð, máttu]
 - is: að segja e-m e-ð
   class: sagnorð
   sagnorð-class: i-Klasse
@@ -1328,9 +1368,17 @@
   Framsöguháttur:
     Nútíð: [er, ert, er, erum, erið, eru]
     Þátíð: [var, varst, var, vorum, voruð, voru]
+- is: að vita
+  class: sagnorð
+  sagnorð-class: unregelmässig, Modalverb
+  de: wissen
+  arnastofnun: beyging/469289
+  Framsöguháttur:
+    Nútíð: [veit, veist, veit, vitum, vitið, vita]
+    Þátíð: [vissi, vissir, vissi, vissum, vissuð, vissu]
 - is: að vilja
   class: sagnorð
-  sagnorð-class: unregelmässig
+  sagnorð-class: unregelmässig, Modalverb
   de: wollen
   arnastofnun: leit/vilja
   Framsöguháttur:
