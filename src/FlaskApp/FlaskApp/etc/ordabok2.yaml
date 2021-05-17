@@ -1248,6 +1248,30 @@
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
     Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
+- is: að spila á
+  class: sagnorð
+  sagnorð-class: a_Klasse
+  de: spielen
+  arnastofnun: beyging/423381
+  Framsöguháttur:
+    Nútíð: [spila, spilar, spilar, spilum, spilið, spila]
+    Þátíð: [spilaði, spilaðir, spilaði, spiluðum, spiluðuð, spiluðu]
+- is: að stunda
+  class: sagnorð
+  sagnorð-class: a_Klasse
+  de: treiben
+  arnastofnun: leit/stunda
+  Framsöguháttur:
+    Nútíð: [stunda, stundar, stundar, stundum, stundið, stunda]
+    Þátíð: [stundaði, stundaðir, stundaði, stunduðum, stunduðuð, stunduðu]
+- is: að telja
+  class: sagnorð
+  sagnorð-class: 0_Klasse
+  de: zählen
+  arnastofnun: leit/telja
+  Framsöguháttur:
+    Nútíð: [tel, telur, telur, tejum, teljið, telja]
+    Þátíð: [taldi, taldir, taldi, töldum, tölduð, töldu]
 - is: að vera
   class: sagnorð
   sagnorð-class: unregelmässig
