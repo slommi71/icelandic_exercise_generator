@@ -999,6 +999,14 @@
   beyging:
     nf: [hundrað, hundraðið, hundruð, hundruðin]
     pf: [hundrað, hundraðið, hundruð, hundruðin]
+- is: hús
+  class: nafnorð
+  kyns: hvorugkyns
+  de: Haus
+  arnastofnun: beyging/1720
+  beyging:
+    nf: [hús, húsið, hús, húsin]
+    pf: [hús, húsið, hús, húsin]
 - is: kaffi
   class: nafnorð
   kyns: hvorugkyns
@@ -1216,22 +1224,6 @@
   Framsöguháttur:
     Nútíð: [heiti, heitir, heitir, heitum, heitið, heita]
     Þátíð: [hét, hést, hét, hétum, hétuð, hétu]
-- is: að segja e-m e-ð
-  class: sagnorð
-  sagnorð-class: i-Klasse
-  de: sagen
-  arnastofnun: leit/segja
-  Framsöguháttur:
-    Nútíð: [segi, segir, segir, segjum, segið, segja]
-    Þátíð: [sagði, sagðir, sagðir, sögðum, sögðuð, södðu]
-- is: að vinna
-  class: sagnorð
-  sagnorð-class: stark, III
-  de: arbeiten
-  arnastofnun: beyging/485738
-  Framsöguháttur:
-    Nútíð: [vinn, vinnur, vinnur, vinnum, vinnið, vinna]
-    Þátíð: [vann, vannst, vann, unnum, unnuð, unnu]
 - is: að eiga
   class: sagnorð
   sagnorð-class: unregelmässig
@@ -1240,6 +1232,22 @@
   Framsöguháttur:
     Nútíð: [á, átt, á, eigum, eigið, eiga]
     Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
+- is: að hlusta á (+Akk)
+  class: sagnorð
+  sagnorð-class: a_Klasse
+  de: anhören
+  arnastofnun: leit/hlusta
+  Framsöguháttur:
+    Nútíð: [hlusta, hlustar, hlustar, hlustum, hlustið, hlusta]
+    Þátíð: [hlustaði, hlustaðir, hlustaði, hlustuðum, hlustuðuð, hlustuðu]
+- is: að horfa á (+Akk)
+  class: sagnorð
+  sagnorð-class: a_Klasse
+  de: anschauen
+  arnastofnun: leit/horfa
+  Framsöguháttur:
+    Nútíð: [horfa, horfir, horfir, horfum, horfið, horfa]
+    Þátíð: [horfði, horfðir, horfði, horfðum, horfðuð, horfðu]
 - is: að kynna e-n
   class: sagnorð
   sagnorð-class: i_Klasse
@@ -1248,10 +1256,26 @@
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
     Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
-- is: að spila á
+- is: að segja e-m e-ð
+  class: sagnorð
+  sagnorð-class: i-Klasse
+  de: sagen
+  arnastofnun: leit/segja
+  Framsöguháttur:
+    Nútíð: [segi, segir, segir, segjum, segið, segja]
+    Þátíð: [sagði, sagðir, sagðir, sögðum, sögðuð, södðu]
+- is: að spila (+Akk)
   class: sagnorð
   sagnorð-class: a_Klasse
   de: spielen
+  arnastofnun: beyging/423381
+  Framsöguháttur:
+    Nútíð: [spila, spilar, spilar, spilum, spilið, spila]
+    Þátíð: [spilaði, spilaðir, spilaði, spiluðum, spiluðuð, spiluðu]
+- is: að spila á (+Akk)
+  class: sagnorð
+  sagnorð-class: a_Klasse
+  de: spielen (Instrument)
   arnastofnun: beyging/423381
   Framsöguháttur:
     Nútíð: [spila, spilar, spilar, spilum, spilið, spila]
@@ -1288,3 +1312,11 @@
   Framsöguháttur:
     Nútíð: [vil, vilt, vill, viljum, viljið, vilja]
     Þátíð: [vildi, vildir, vildi, vildum, vilduð, vildu]
+- is: að vinna
+  class: sagnorð
+  sagnorð-class: stark, III
+  de: arbeiten
+  arnastofnun: beyging/485738
+  Framsöguháttur:
+    Nútíð: [vinn, vinnur, vinnur, vinnum, vinnið, vinna]
+    Þátíð: [vann, vannst, vann, unnum, unnuð, unnu]
