@@ -597,7 +597,7 @@
   de: Million
   arnastofnun: beyging/10498
   beyging:
-    nf: [milljón, milljónin, milljónir, milljónirnarJ]
+    nf: [milljón, milljónin, milljónir, milljónirnar]
     pf: [milljón, milljónina, milljónir, milljónirnar]
 - is: mínúta
   class: nafnorð
@@ -1224,7 +1224,7 @@
   Framsöguháttur:
     Nútíð: [á, átt, á, eigum, eigið, eiga]
     Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
-- is: að elska e-n/e-ð
+- is: að elska e-n/e-ð (+Þf.)
   class: sagnorð
   sagnorð-class: A-Klasse
   de: lieben
@@ -1240,7 +1240,7 @@
   Framsöguháttur:
     Nútíð: [fer, ferð, fer, förum, farið, fara]
     Þátíð: [fór, fórst, fór, fórum, fóruð, fóru]
-- is: að fá e-ð
+- is: að fá e-ð (+Þf.)
   class: sagnorð
   sagnorð-class: stark
   de: bekommen (etwas)
@@ -1250,13 +1250,13 @@
     Þátíð: [fékk, fékkst, fékk, fengum, fenguð, fengu]
 - is: að heita
   class: sagnorð
-  sagnorð-class: i-Klasse
+  sagnorð-class: stark
   de: heißen
   arnastofnun: beyging/434170
   Framsöguháttur:
     Nútíð: [heiti, heitir, heitir, heitum, heitið, heita]
     Þátíð: [hét, hést, hét, hétum, hétuð, hétu]
-- is: að hitta (+Þf.)
+- is: að hitta e-n/e-ð (+Þf.)
   class: sagnorð
   sagnorð-class: i-Klasse
   de: treffen
@@ -1278,7 +1278,7 @@
   de: anschauen
   arnastofnun: leit/horfa
   Framsöguháttur:
-    Nútíð: [horfa, horfir, horfir, horfum, horfið, horfa]
+    Nútíð: [horfi, horfir, horfir, horfum, horfið, horfa]
     Þátíð: [horfði, horfðir, horfði, horfðum, horfðuð, horfðu]
 - is: að kynna e-n
   class: sagnorð
@@ -1292,7 +1292,7 @@
   class: sagnorð
   sagnorð-class: unregelmässig, Modalverb
   de: können
-  arnastofnun: leit/kynna
+  arnastofnun: leit/kunna
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
     Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
