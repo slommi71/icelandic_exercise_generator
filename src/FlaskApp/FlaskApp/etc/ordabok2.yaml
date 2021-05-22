@@ -549,7 +549,7 @@
   de: Kartoffel
   arnastofnun: leit/kartafla
   beyging:
-    nf: [kartafla , kartafla, kartöflur, kartöflurnar ]
+    nf: [kartafla , kartaflan, kartöflur, kartöflurnar ]
     pf: [kartöflu , kartöfluna, kartöflur, kartöflurnar ]
 - is: kjötbolla
   class: nafnorð
@@ -1280,19 +1280,19 @@
   Framsöguháttur:
     Nútíð: [horfi, horfir, horfir, horfum, horfið, horfa]
     Þátíð: [horfði, horfðir, horfði, horfðum, horfðuð, horfðu]
-- is: að kynna e-n
+- is: að kunna e-n
   class: sagnorð
-  sagnorð-class: i_Klasse
-  de: vorstellen
-  arnastofnun: beyging/427491
+  sagnorð-class: unregelmässig, Modalverb
+  de: können, wissen
+  arnastofnun: leit/kunna
   Framsöguháttur:
     Nútíð: [kann, kannt, kann, knnnum, kunnið, kunna]
     Þátíð: [kunni, kunnir, kunni, kunnum, kunnuð, kunnu]
-- is: að kunna
+- is: að kynna e-ð
   class: sagnorð
-  sagnorð-class: unregelmässig, Modalverb
-  de: können
-  arnastofnun: leit/kunna
+  sagnorð-class: i_Klasse
+  de: vorstellen, bekanntmachen, präsentieren
+  arnastofnun: leit/kynna
   Framsöguháttur:
     Nútíð: [kynni, kynnir, kynnir, kynnum, kynnið, kynna]
     Þátíð: [kynnti, kynntir, kynnti, kynntum, kynntuð, kynntu]
