@@ -509,8 +509,8 @@
   de: Flasche
   arnastofnun: beyging/16682
   beyging:
-    nf: [flaska, flaskan, flöskur, flöskur]
-    pf: [flösku, flöskun, flöskur, flöskur]
+    nf: [flaska, flaskan, flöskur, flöskurnar]
+    pf: [flösku, flöskuna, flöskur, flöskurnar]
 - is: gönguferð
   class: nafnorð
   kyns: kvenkyns
