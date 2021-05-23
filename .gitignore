@@ -1,0 +1,7 @@
+generate_new_exercise.ps1
+venv
+venv39
+.vscode
+etc/ordabok.yaml
+assets/favicon.psd
+src/cachedapp
