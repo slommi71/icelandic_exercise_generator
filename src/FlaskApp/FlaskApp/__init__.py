@@ -85,12 +85,14 @@ def show_solution():
         result_w = w['is']
         s_class = w['sagnorð-class']
         result_as = str(w['arnastofnun'])
+        result_dictcc = str(w['is'].split()[1])
         beyging_fn = w['Framsöguháttur']['Nútíð']
         beyging_fp = w['Framsöguháttur']['Þátíð']
         # app.logger.debug("Beyging Nf. eintala = {0}".format(beyging_fn[0]))
         return render_template('lausn_sagnord.html',
                                wort=result_w, cl=w['class'],
                                 kyns_or_class=s_class, arnastofnun=result_as,
+                                dictcc=result_dictcc,
                                 fn1=beyging_fn[0], fn2=beyging_fn[1],
                                 fn3=beyging_fn[2], fn4=beyging_fn[3],
                                 fn5=beyging_fn[4], fn6=beyging_fn[5],
