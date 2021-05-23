@@ -359,6 +359,14 @@
   beyging:
     nf: [sveppur, sveppurinn, sveppar, svepparnir]
     pf: [svepp, sveppinn, sveppa, sveppana]
+- is: tími
+  class: nafnorð
+  kyns: karlkyns
+  de: Zeit
+  arnastofnun: leit/tími
+  beyging:
+    nf: [tími, tíminn, tímar, tímarnir]
+    pf: [tíma, tímann, tíma, tímana]
 - is: tómatur
   class: nafnorð
   kyns: karlkyns
@@ -1207,15 +1215,24 @@
   beyging:
     nf: [Þema, Þemað, Þemu, Þemun]
     pf: [Þema, Þemað, Þemu, Þemun]
+
 # sagnorð
 - is: að borða e-ð
   class: sagnorð
-  sagnorð-class: A-Klasse
+  sagnorð-class: a-flokkur
   de: essen
   arnastofnun: leit/borða
   Framsöguháttur:
     Nútíð: [borða, borðar, borðar, borðum, borðið, borða]
     Þátíð: [borðaði, borðaðir, borðaði, borðuðum, borðuðuð, borðuðu]
+- is: að brosa
+  class: sagnorð
+  sagnorð-class: i-Klasse
+  de: lächeln
+  arnastofnun: beyging/435706
+  Framsöguháttur:
+    Nútíð: [brosi, brosir, brosir, brosum, brosið, brosa]
+    Þátíð: [brosti, brostir, brosti, brostum, brostuð, brostu]
 - is: að eiga
   class: sagnorð
   sagnorð-class: unregelmässig, Modalverb
@@ -1226,7 +1243,7 @@
     Þátíð: [átti, áttir, átti, áttum, áttuð, áttu]
 - is: að elska e-n/e-ð (+Þf.)
   class: sagnorð
-  sagnorð-class: A-Klasse
+  sagnorð-class: a-flokkur
   de: lieben
   arnastofnun: beyging/419928
   Framsöguháttur:
@@ -1248,6 +1265,22 @@
   Framsöguháttur:
     Nútíð: [fæ, færð, fæf, fáum, fáið, fá]
     Þátíð: [fékk, fékkst, fékk, fengum, fenguð, fengu]
+- is: að gera e-ð (+Þf.)
+  class: sagnorð
+  sagnorð-class: i-flokkur
+  de: tun
+  arnastofnun: leit/gera
+  Framsöguháttur:
+    Nútíð: [geri, gerir, gerir, gerum, gerið, gera]
+    Þátíð: [gerði, gerðir, gerði, gerðum, gerðuð, gerðu]
+- is: að gleyma e-m e-ð
+  class: sagnorð
+  sagnorð-class: i-flokkur
+  de: zvergessen, verlernen
+  arnastofnun: leit/gleyma
+  Framsöguháttur:
+    Nútíð: [gleymi, gleymir, gleymir, gleymum, gleymið, gleyma]
+    Þátíð: [gleymdi, gleymdir, gleymdi, gleymdum, gleymduð, gleymdu]
 - is: að heita
   class: sagnorð
   sagnorð-class: stark
@@ -1266,7 +1299,7 @@
     Þátíð: [hitti, hittir, hitti, hittum, hittuð, hittu]
 - is: að hlusta á (+Þf.)
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: anhören
   arnastofnun: leit/hlusta
   Framsöguháttur:
@@ -1274,12 +1307,20 @@
     Þátíð: [hlustaði, hlustaðir, hlustaði, hlustuðum, hlustuðuð, hlustuðu]
 - is: að horfa á (+Þf.)
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: anschauen
   arnastofnun: leit/horfa
   Framsöguháttur:
     Nútíð: [horfi, horfir, horfir, horfum, horfið, horfa]
     Þátíð: [horfði, horfðir, horfði, horfðum, horfðuð, horfðu]
+- is: að kenna e-m e-ð
+  class: sagnorð
+  sagnorð-class: i-flokkur
+  de: beibringen, lehren, unterrichten
+  arnastofnun: leit/kenna
+  Framsöguháttur:
+    Nútíð: [kenni, kennir, kennir, kennum, kennið, kenna]
+    Þátíð: [kenndi, kenndir, kenndi, kenndum, kennduð, kenndu]
 - is: að kunna e-n
   class: sagnorð
   sagnorð-class: unregelmässig, Modalverb
@@ -1290,7 +1331,7 @@
     Þátíð: [kunni, kunnir, kunni, kunnum, kunnuð, kunnu]
 - is: að kynna e-ð
   class: sagnorð
-  sagnorð-class: i_Klasse
+  sagnorð-class: i-flokkur
   de: vorstellen, bekanntmachen, präsentieren
   arnastofnun: leit/kynna
   Framsöguháttur:
@@ -1312,6 +1353,14 @@
   Framsöguháttur:
     Nútíð: [má, mátt, má, megum, megið, mega]
     Þátíð: [mátti, máttir, mátti, máttum, máttuð, máttu]
+- is: að nenna
+  class: sagnorð
+  sagnorð-class: i-Klasse
+  de: Lust haben auf, mögen
+  arnastofnun: beyging/435099
+  Framsöguháttur:
+    Nútíð: [nenni, nennir, nennir, nennum, nennið, nenna]
+    Þátíð: [nennti, nenntir, nennti, nenntum, nenntuð, nenntu]
 - is: að segja e-m e-ð
   class: sagnorð
   sagnorð-class: i-Klasse
@@ -1320,9 +1369,17 @@
   Framsöguháttur:
     Nútíð: [segi, segir, segir, segjum, segið, segja]
     Þátíð: [sagði, sagðir, sagðir, sögðum, sögðuð, södðu]
+- is: að selja e-m e-ð
+  class: sagnorð
+  sagnorð-class: 0-flokkur
+  de: zählen
+  arnastofnun: beyging/488196
+  Framsöguháttur:
+    Nútíð: [sel, selur, selur, seljum, seljið, selja]
+    Þátíð: [seldi, seldir, seldi, seldum, selduð, seldu]
 - is: að spila (+Þf.)
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: spielen
   arnastofnun: beyging/423381
   Framsöguháttur:
@@ -1330,7 +1387,7 @@
     Þátíð: [spilaði, spilaðir, spilaði, spiluðum, spiluðuð, spiluðu]
 - is: að spila á (+Þf.)
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: spielen (Instrument)
   arnastofnun: beyging/423381
   Framsöguháttur:
@@ -1338,7 +1395,7 @@
     Þátíð: [spilaði, spilaðir, spilaði, spiluðum, spiluðuð, spiluðu]
 - is: að stunda
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: treiben
   arnastofnun: leit/stunda
   Framsöguháttur:
@@ -1346,7 +1403,7 @@
     Þátíð: [stundaði, stundaðir, stundaði, stunduðum, stunduðuð, stunduðu]
 - is: að tala
   class: sagnorð
-  sagnorð-class: a_Klasse
+  sagnorð-class: a-flokkur
   de: sprechen
   arnastofnun: beyging/424804
   Framsöguháttur:
@@ -1354,7 +1411,7 @@
     Þátíð: [taladi, talaðir, talaði, töluðum, töluðuð, töluðu]
 - is: að telja
   class: sagnorð
-  sagnorð-class: 0_Klasse
+  sagnorð-class: 0-flokkur
   de: zählen
   arnastofnun: leit/telja
   Framsöguháttur:
@@ -1392,3 +1449,19 @@
   Framsöguháttur:
     Nútíð: [vinn, vinnur, vinnur, vinnum, vinnið, vinna]
     Þátíð: [vann, vannst, vann, unnum, unnuð, unnu]
+- is: að þekkja e-n e-ð
+  class: sagnorð
+  sagnorð-class: i-Klasse
+  de: sagen
+  arnastofnun: leit/þekkja
+  Framsöguháttur:
+    Nútíð: [þekki, þekkir, þekkir, þekkjum, þekkið, þekkja]
+    Þátíð: [þekkti, þekktir, þekktir, þekktum, þekktuð, þektðu]
+- is: að ætla
+  class: sagnorð
+  sagnorð-class: a-flokkur
+  de: beabsichtigen, vorhaben
+  arnastofnun: leit/ætla
+  Framsöguháttur:
+    Nútíð: [ætla, ætlar, ætlar, ætlum, ætlið, ætla]
+    Þátíð: [ætlaði, ætlaðir, ætlaði, ætluðum, ætluðuð, ætluðu]
