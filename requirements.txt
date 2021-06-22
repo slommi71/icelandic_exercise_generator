@@ -5,3 +5,6 @@ flask_caching
 Scrapy
 requests
 flask_socketio
+ipykernel
+ansible-lint[yamllint]
+pandas
